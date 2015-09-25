@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="model.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="model.css"?>
+<model>
+	<projectname>Test project</projectname>
+	<language>en-US</language>
+	<folders>
+		<keymaps>1</keymaps>
+		<subfolders>1</subfolders>
+		<submaps>0</submaps>
+		<img-folders>0</img-folders>
+	</folders>
+	<topic>
+		<level>1</level>
+		<title>Task sample a</title>
+		<type>task</type>
+		<filename></filename>
+	</topic>
+	<topic>
+		<level>3</level>
+		<title>Reference sample b</title>
+		<type>reference</type>
+		<filename></filename>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Concept sample c</title>
+		<type>concept</type>
+		<filename></filename>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Topic sample d</title>
+		<type>topic</type>
+		<filename></filename>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Concept sample e</title>
+		<type>concept</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Reference sample f</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Task sample g</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>title</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Imprint</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+</model>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task xml:lang="de-DE" id="t_${id}">
+    <title>${caret}</title>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+    </taskbody>
+</task>

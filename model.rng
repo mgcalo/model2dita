@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+	datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<start>
+		<element name="model">
+			<element name="projectname">
+				<text/>
+			</element>
+			<element name="language">
+				<choice>
+					<value type="string">en-US</value>
+					<value type="string">de-DE</value>
+				</choice>
+			</element>
+				
+			<ref name="folder-struct"/>
+			<ref name="outline"/>
+		</element>
+	</start>
+	
+	<define name="folder-struct">
+		<element name="folders">
+			<element name="keymaps">
+			<choice>
+				<value type="boolean">1</value>
+				<value type="boolean">0</value>
+			</choice>
+		</element>
+		<element name="subfolders">
+			<choice>
+				<value type="boolean">true</value>
+				<value type="boolean">false</value>
+			</choice>
+		</element>
+		<element name="submaps">
+			<choice>
+				<value type="boolean">true</value>
+				<value type="boolean">false</value>
+			</choice>
+		</element>
+		<element name="img-folders">
+			<choice>
+				<value type="boolean">true</value>
+				<value type="boolean">false</value>
+			</choice>
+		</element></element>
+	</define>
+	
+	<define name="outline">
+		<oneOrMore>
+			<group><element name="topic">
+				<element name="level">
+					<choice>
+						<value type="integer">1</value>
+						<value type="integer">2</value>
+						<value type="integer">3</value>
+						<value type="integer">4</value>
+					</choice>
+				</element>
+				<element name="title">
+					<text/>
+				</element>
+				<element name="type">
+					<choice>
+						<value type="string">task</value>
+						<value type="string">reference</value>
+						<value type="string">concept</value>
+						<value type="string">glossentry</value>
+						<value type="string">topic</value>
+					</choice>
+				</element>
+				<element name="filename">
+					<text/>
+				</element>
+			</element></group>
+		</oneOrMore>
+	</define>
+</grammar>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="17.0">
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="model2project.xpr">
+        <folder path="model-templates/"/>
+        <file name="model.css"/>
+        <file name="model.rng"/>
+        <file name="test-model.xml"/>
+    </projectTree>
+</project>
