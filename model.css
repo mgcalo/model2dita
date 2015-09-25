@@ -9,7 +9,7 @@ projectname{
 	padding:5pt;
 	content:oxy_label(text, "Project name: ", width, 40px)
  oxy_textfield(edit, '#text', columns, 10);
-/*	content:oxy_urlChooser(edit,"#text", columns, 25);*/
+	/*	content:oxy_urlChooser(edit,"#text", columns, 25);*/
 	visibility:-oxy-collapse-text;
 
 }
@@ -72,7 +72,7 @@ topic{
 	/*border-style:solid;
 	border-color:silver;
 	border-width:0.5px;*/
-	content:oxy_xpath("string-join(./ancestor-or-self::*/local-name(), '/')");
+	/*content:oxy_xpath("string-join(./ancestor-or-self::*\/local-name(), '/')");*/
 }
 
 
@@ -115,11 +115,11 @@ topic > filename{
 	content:oxy_lowercase(oxy_replace(oxy_concat(oxy_xpath("substring(preceding-sibling::type,1,1)"), "_", oxy_xpath("normalize-space(preceding-sibling::title)"), ".xml"), ' ', '-'));
 }
 
-model:after {
-	content: oxy_button(action, oxy_action(
-          name, 'Generate', 
-          description, 'Generate DITA from model', 
-          icon, url('insert.png'), 
-          operation, 'org.thinkdita.model2dita.GenerateOperation'
+model:after{
+	content:oxy_button(action, oxy_action(
+name, 'Generate', 
+description, 'Generate DITA from model', 
+icon, url('insert.png'), 
+operation, 'org.thinkdita.model2dita.GenerateOperation'
 ))
 }

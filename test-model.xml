@@ -14,25 +14,25 @@
 		<level>1</level>
 		<title>Task sample a</title>
 		<type>task</type>
-		<filename></filename>
+		<filename/>
 	</topic>
 	<topic>
-		<level>3</level>
+		<level>2</level>
 		<title>Reference sample b</title>
 		<type>reference</type>
-		<filename></filename>
+		<filename/>
 	</topic>
 	<topic>
 		<level>2</level>
 		<title>Concept sample c</title>
 		<type>concept</type>
-		<filename></filename>
+		<filename/>
 	</topic>
 	<topic>
 		<level>1</level>
 		<title>Topic sample d</title>
 		<type>topic</type>
-		<filename></filename>
+		<filename/>
 	</topic>
 	<topic>
 		<level>2</level>
