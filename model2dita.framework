@@ -25,7 +25,19 @@
 					<field name="authorExtensionDescriptor">
 						<authorExtension>
 							<field name="cssDescriptors">
-								<cssFile-array/>
+								<cssFile-array>
+									<cssFile>
+										<field name="href">
+											<String>${framework}/resources/css/model.css</String>
+										</field>
+										<field name="title">
+											<String></String>
+										</field>
+										<field name="alternate">
+											<Boolean>false</Boolean>
+										</field>
+									</cssFile>
+								</cssFile-array>
 							</field>
 							<field name="mergeCSSsFromDocument">
 								<Boolean>false</Boolean>
