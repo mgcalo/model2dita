@@ -28,7 +28,7 @@
 								<cssFile-array>
 									<cssFile>
 										<field name="href">
-											<String>${framework}/resources/css/model.css</String>
+											<String>${framework}/resources/css/model2dita.css</String>
 										</field>
 										<field name="title">
 											<String></String>
