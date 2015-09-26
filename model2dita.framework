@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <serialized version="17.0" xml:space="preserve">
-	<map>
+	<serializableOrderedMap>
 		<entry>
 			<String>document.types</String>
 			<documentTypeDescriptor-array>
@@ -15,7 +15,9 @@
 						<null/>
 					</field>
 					<field name="classpath">
-						<String-array/>
+						<String-array>
+							<String>${framework}/java/model2dita.jar</String>
+						</String-array>
 					</field>
 					<field name="parentClassLoaderID">
 						<null/>
@@ -184,5 +186,5 @@
 				</documentTypeDescriptor>
 			</documentTypeDescriptor-array>
 		</entry>
-	</map>
+	</serializableOrderedMap>
 </serialized>
