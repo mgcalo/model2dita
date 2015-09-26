@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="model.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="resources/css/model.css"?>
-<model>
+<model xmlns="http://thinkdita.org/ns/model2dita">
 	<projectname>Test project</projectname>
 	<language>en-US</language>
 	<folders>
