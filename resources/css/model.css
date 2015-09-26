@@ -112,7 +112,7 @@ topic > filename{
 	color:green;
 	/*content:oxy_label(text, "Filename: ", width, 15px)*/
 	/*	content:oxy_textfield(edit, '#text', columns, 15, values, oxy_lowercase(oxy_replace(oxy_concat("t_", oxy_xpath("normalize-space(preceding-sibling::title)"),".xml"),' ','-')));*/
-	content:oxy_lowercase(oxy_replace(oxy_concat(oxy_xpath("substring(preceding-sibling::type,1,1)"), "_", oxy_xpath("normalize-space(preceding-sibling::title)"), ".xml"), ' ', '-'));
+	content:oxy_xpath("lower-case(replace(concat(substring(preceding-sibling::type,1,1), '_', normalize-space(preceding-sibling::title), '.xml'), ' ', '-'))");
 }
 
 model:after{
