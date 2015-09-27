@@ -81,11 +81,10 @@ topic > level{
 	display:inline-block;
 	/*content:oxy_label(text, "Level: ", width, 40px)*/
 	content:oxy_combobox(edit, '#text', editable, false, values, '1, 2, 3, 4');
-	padding-left:oxy_multiply(oxy_xpath('text()'), 15, 'pt');
+	/*padding-left:oxy_multiply(oxy_xpath("xs:float(text())"), 15, 'pt');*/
+	padding-left:oxy_xpath("concat(text(),'0mm')");
 	visibility:-oxy-collapse-text;
-
 }
-
 
 topic > title{
 	display:inline-block;

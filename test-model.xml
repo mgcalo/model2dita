@@ -1,65 +1,263 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="model.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <model xmlns="http://thinkdita.org/ns/model2dita">
-	<projectname>Test project</projectname>
+	<projectname>Trello Workshop</projectname>
 	<language>en-US</language>
 	<folders>
 		<keymaps>1</keymaps>
-		<subfolders>1</subfolders>
+		<subfolders>0</subfolders>
 		<submaps>0</submaps>
 		<img-folders>0</img-folders>
 	</folders>
 	<topic>
 		<level>1</level>
-		<title>Task sample a</title>
+		<title>Planning your projects with Trello</title>
 		<type>task</type>
 		<filename/>
 	</topic>
 	<topic>
 		<level>2</level>
-		<title>Reference sample b</title>
-		<type>reference</type>
-		<filename/>
-	</topic>
-	<topic>
-		<level>2</level>
-		<title>Concept sample c</title>
-		<type>concept</type>
-		<filename/>
-	</topic>
-	<topic>
-		<level>1</level>
-		<title>Topic sample d</title>
-		<type>topic</type>
-		<filename/>
-	</topic>
-	<topic>
-		<level>2</level>
-		<title>Concept sample e</title>
-		<type>concept</type>
-		<filename/>
-	</topic>
-	<topic>
-		<level>2</level>
-		<title>Reference sample f</title>
-		<type>reference</type>
-		<filename/>
-	</topic>
-	<topic>
-		<level>1</level>
-		<title>Task sample g</title>
+		<title>Keeping to-do lists</title>
 		<type>task</type>
 		<filename/>
 	</topic>
 	<topic>
 		<level>2</level>
-		<title>title</title>
+		<title>Agile boards</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Brainstorming</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Voting</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Writing drafts</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Starting a Trello board</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Creating an user account</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Creating a personal organization</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Creating a business organization</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Creating a board</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Inviting participants</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Collaborating on the board</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Creating lists on the board</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Creating cards on the board</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Assigning members to cards</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Setting due dates</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Setting labels</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Prioritizing by voting on cards</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Monitoring Trello boards</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Checking activity history</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Subscribing</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Creating a calendar</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Adding content to cards</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Card title</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Card description</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Card checklists</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Card attachments</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Card comments</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Mentions on cards</title>
 		<type>reference</type>
 		<filename/>
 	</topic>
 	<topic>
 		<level>1</level>
-		<title>Imprint</title>
+		<title>Exporting content from Trello</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Sharing board contents</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Printing board contents</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Exporting board contents</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Changing items</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Moving items</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Copying items</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Archiving items</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Deleting cards</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Closing boards</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Examples of boards</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Shortcuts and tips</title>
 		<type>reference</type>
 		<filename/>
 	</topic>
