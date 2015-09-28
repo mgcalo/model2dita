@@ -44,7 +44,7 @@ folders > keymaps{
 folders > subfolders{
 	display:inline-block;
 	padding:5pt;
-	content:oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create subfolders');
+	content:oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create subfolders:');
 	visibility:-oxy-collapse-text;
 
 }
@@ -52,7 +52,9 @@ folders > subfolders{
 
 folders > submaps{
 	display:inline-block;
+	background-color:#FAFAFA;
 	padding:5pt;
+	padding-top:15pt;
 	content:oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create submaps');
 	visibility:-oxy-collapse-text;
 
@@ -60,7 +62,9 @@ folders > submaps{
 
 folders > img-folders{
 	display:inline-block;
+	background-color:#FAFAFA;
 	padding:5pt;
+	padding-top:15pt;
 	content:oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create image subfolders');
 	visibility:-oxy-collapse-text;
 
