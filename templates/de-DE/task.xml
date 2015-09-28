@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="de-DE" id="t_${id}">
-    <title>${caret}</title>
+    <title>${title}</title>
     <taskbody>
         <context>
             <p></p>
