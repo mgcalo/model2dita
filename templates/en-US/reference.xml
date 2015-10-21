@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference xml:lang="en-US" id="r_${id}">
+<reference xml:lang="en-US" id="${id}">
   <title>${title}</title>
   <refbody>
 	<section>
