@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task xml:lang="en-US" id="${id}">
-	<title>${title}</title>
+<task xml:lang="en-US" id="t_creating-an-user-account">
+	<title>Creating an user account</title>
 	<taskbody>
 		<context>
 			<p/>
