@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference xml:lang="de-DE" id="${id}">
-  <title>${title}</title>
+<reference xml:lang="en-US" id="r_examples-of-boards">
+  <title>Examples of boards</title>
   <refbody>
 	<section>
 		<p></p>

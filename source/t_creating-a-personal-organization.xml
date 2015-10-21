@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task xml:lang="en-US" id="${id}">
-	<title>${title}</title>
+<task xml:lang="en-US" id="t_creating-a-personal-organization">
+	<title>Creating a personal organization</title>
 	<taskbody>
 		<context>
 			<p/>

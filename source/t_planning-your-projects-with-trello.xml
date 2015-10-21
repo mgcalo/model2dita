@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task xml:lang="en-US" id="${id}">
-	<title>${title}</title>
+<task xml:lang="en-US" id="t_planning-your-projects-with-trello">
+	<title>Planning your projects with Trello</title>
 	<taskbody>
 		<context>
 			<p/>
