@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="de-DE">
+	<title>Projekt-Rootmap</title>
+
+	<!-- #### METADATA SECTION #### -->
+
+	<!-- #### KEYS SECTION #### -->
+	<mapref href="prod-keys.ditamap" format="ditamap" processing-role="resource-only"/>
+	<mapref href="img-keys.ditamap" format="ditamap" processing-role="resource-only"/>
+
+	<!-- #### CONTENT #### -->
+	<!--<topicref href="${topic-path}" navtitle="${topic/title}" type="${topic/type}" format="dita"></topicref>-->
+
+	<!-- #### RELTABLE SECTION #### -->
+
+</map>

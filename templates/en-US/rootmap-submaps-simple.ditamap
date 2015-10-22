@@ -6,12 +6,9 @@
 	<!-- #### METADATA SECTION #### -->
 
 	<!-- #### KEYS SECTION #### -->
-	<mapref href="prod-keys.ditamap" format="ditamap" processing-role="resource-only"/>
-	<mapref href="img-keys.ditamap" format="ditamap" processing-role="resource-only"/>
 
 	<!-- #### CONTENT #### -->
-
-
+	<!--<mapref href="${submap-path}" navtitle="${submap/title}" type="map" format="dita"/>-->
 
 	<!-- #### RELTABLE SECTION #### -->
 

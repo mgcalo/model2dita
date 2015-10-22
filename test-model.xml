@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="model.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <model xmlns="http://thinkdita.org/ns/model2dita">
-	<projectname>Trello Workshop</projectname>
+	<projectname>Trello Guide</projectname>
 	<language>en-US</language>
 	<folders>
-		<keymaps>1</keymaps>
+		<keymaps>0</keymaps>
 		<subfolders>0</subfolders>
 		<submaps>0</submaps>
 		<img-folders>0</img-folders>
 	</folders>
 	<topic>
 		<level>1</level>
-		<title>Planning your projects with Trello</title>
-		<type>task</type>
+		<title>Project plans with Trello</title>
+		<type>concept</type>
 		<filename/>
 	</topic>
 	<topic>
 		<level>2</level>
-		<title>Keeping to-do lists</title>
-		<type>task</type>
+		<title>To-do lists</title>
+		<type>concept</type>
 		<filename/>
 	</topic>
 	<topic>
 		<level>2</level>
 		<title>Agile boards</title>
-		<type>task</type>
+		<type>concept</type>
 		<filename/>
 	</topic>
 	<topic>
 		<level>2</level>
 		<title>Brainstorming</title>
-		<type>task</type>
+		<type>concept</type>
 		<filename/>
 	</topic>
 	<topic>
 		<level>2</level>
 		<title>Voting</title>
-		<type>task</type>
+		<type>concept</type>
 		<filename/>
 	</topic>
 	<topic>
 		<level>2</level>
 		<title>Writing drafts</title>
-		<type>task</type>
+		<type>concept</type>
 		<filename/>
 	</topic>
 	<topic>

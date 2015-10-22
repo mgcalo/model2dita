@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="en-US">
+	<title>Project Rootmap</title>
+
+	<!-- #### METADATA SECTION #### -->
+
+	<!-- #### KEYS SECTION #### -->
+
+	<!-- #### CONTENT #### -->
+	<!--<topicref href="${topic-path}" navtitle="${topic/title}" type="${topic/type}" format="dita"></topicref>-->
+
+	<!-- #### RELTABLE SECTION #### -->
+
+</map>
