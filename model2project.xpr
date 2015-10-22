@@ -4,7 +4,7 @@
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
             <serialized version="17.0" xml:space="preserve">
-                <map>
+                <serializableOrderedMap>
                     <entry>
                         <String>additional.frameworks.directories</String>
                         <String-array>
@@ -15,12 +15,13 @@
                         <String>key.editor.document.type.custom.locations.option.pane</String>
                         <Boolean>true</Boolean>
                     </entry>
-                </map>
+                </serializableOrderedMap>
             </serialized>
         </options>
     </meta>
     <projectTree name="model2project.xpr">
         <folder path="java/"/>
+        <folder path="projects/"/>
         <folder path="resources/"/>
         <folder path="templates/"/>
         <file name="model.rng"/>
