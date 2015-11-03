@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="17.0">
+<project version="17.1">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="17.0" xml:space="preserve">
+            <serialized version="17.1" xml:space="preserve">
                 <serializableOrderedMap>
-                    <entry>
-                        <String>keys.context</String>
-                        <String>${pdu}/${cfn}.ditamap</String>
-                    </entry>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
@@ -18,8 +14,8 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DITA Map PDF - stub</String>
-                                        <String>DITA Map WebHelp - stub</String>
+                                        <String>DITA Map PDF - ${cfn}</String>
+                                        <String>DITA Map WebHelp - ${cfn}</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -35,8 +31,8 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DITA Map WebHelp - stub</String>
-                                        <String>DITA Map PDF - stub</String>
+                                        <String>DITA Map PDF - ${cfn}</String>
+                                        <String>DITA Map WebHelp - ${cfn}</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -208,7 +204,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>DITA Map PDF - stub</String>
+                                    <String>DITA Map PDF - ${cfn}</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
@@ -300,10 +296,10 @@
                                     <String>${cfd}</String>
                                 </field>
                                 <field name="outputDir">
-                                    <String>${pd}/out/webhelp-stub</String>
+                                    <String>${pd}/out/webhelp-${cfn}</String>
                                 </field>
                                 <field name="tempDir">
-                                    <String>${pd}/temp/webhelp-stub</String>
+                                    <String>${pd}/temp/webhelp-${cfn}</String>
                                 </field>
                                 <field name="transtype">
                                     <String>webhelp</String>
@@ -515,7 +511,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>DITA Map WebHelp - stub</String>
+                                    <String>DITA Map WebHelp - ${cfn}</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
@@ -602,7 +598,7 @@
             </serialized>
         </options>
     </meta>
-    <projectTree name="${cfn}.xpr">
-        <folder path=""/>
+    <projectTree name="${projectname}.xpr">
+        <folder path="."/>
     </projectTree>
 </project>
