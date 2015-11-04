@@ -14,8 +14,25 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DITA Map WebHelp - TEST PROJECT</String>
-                                        <String>DITA Map PDF - TEST PROJECT</String>
+                                        <String>DITA Map PDF - Trello Guide</String>
+                                        <String>DITA Map WebHelp - Trello Guide</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>${cfn}.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA Map PDF - Trello Guide</String>
+                                        <String>DITA Map WebHelp - Trello Guide</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -72,7 +89,7 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="skinCssFile">
-                                    <String>${configured.ditaot.dir}/plugins/com.oxygenxml.webhelp/predefined-skins/dita/oxygen/skin.css</String>
+                                    <null/>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
                                     <null/>
@@ -187,7 +204,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>DITA Map PDF - TEST PROJECT</String>
+                                    <String>DITA Map PDF - Trello Guide</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
@@ -310,7 +327,7 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="skinCssFile">
-                                    <String>${configured.ditaot.dir}/plugins/com.oxygenxml.webhelp/predefined-skins/dita/oxygen/skin.css</String>
+                                    <String>${frameworksDir}\dita\DITA-OT\plugins\com.oxygenxml.webhelp\predefined-skins\dita\oxygen\skin.css</String>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
                                     <null/>
@@ -344,9 +361,9 @@
                                             </field>
                                             <field name="possibleValues">
                                                 <String-array>
+                                                    <null/>
                                                     <String>yes</String>
                                                     <String>no</String>
-                                                    <null/>
                                                 </String-array>
                                             </field>
                                         </ditaParameter>
@@ -361,17 +378,17 @@
                                                 <String>all</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <String>all</String>
+                                                <String>none</String>
                                             </field>
                                             <field name="type">
                                                 <Integer>4</Integer>
                                             </field>
                                             <field name="possibleValues">
                                                 <String-array>
+                                                    <null/>
                                                     <String>none</String>
                                                     <String>all</String>
                                                     <String>nofamily</String>
-                                                    <null/>
                                                 </String-array>
                                             </field>
                                         </ditaParameter>
@@ -393,9 +410,9 @@
                                             </field>
                                             <field name="possibleValues">
                                                 <String-array>
+                                                    <null/>
                                                     <String>yes</String>
                                                     <String>no</String>
-                                                    <null/>
                                                 </String-array>
                                             </field>
                                         </ditaParameter>
@@ -417,9 +434,9 @@
                                             </field>
                                             <field name="possibleValues">
                                                 <String-array>
+                                                    <null/>
                                                     <String>yes</String>
                                                     <String>no</String>
-                                                    <null/>
                                                 </String-array>
                                             </field>
                                         </ditaParameter>
@@ -434,13 +451,14 @@
                                                 <String>.xml</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <String>.xml</String>
+                                                <null/>
                                             </field>
                                             <field name="type">
                                                 <Integer>0</Integer>
                                             </field>
                                             <field name="possibleValues">
                                                 <String-array>
+                                                    <null/>
                                                     <String>.xml</String>
                                                     <String>.dita</String>
                                                 </String-array>
@@ -457,7 +475,7 @@
                                                 <String>(c) 2015 thinkDITA</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <null/>
+                                                <String></String>
                                             </field>
                                             <field name="type">
                                                 <Integer>0</Integer>
@@ -493,7 +511,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>DITA Map WebHelp - TEST PROJECT</String>
+                                    <String>DITA Map WebHelp - Trello Guide</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>

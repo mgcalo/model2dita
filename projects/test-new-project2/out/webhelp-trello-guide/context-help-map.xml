@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="c_project-plans-with-trello"
+               path="source/c_project-plans-with-trello.html"/>
+   <appContext helpID="c_to-do-lists" path="source/c_to-do-lists.html"/>
+   <appContext helpID="c_agile-boards" path="source/c_agile-boards.html"/>
+   <appContext helpID="c_brainstorming" path="source/c_brainstorming.html"/>
+   <appContext helpID="c_voting" path="source/c_voting.html"/>
+   <appContext helpID="c_writing-drafts" path="source/c_writing-drafts.html"/>
+   <appContext helpID="t_starting-a-trello-board"
+               path="source/t_starting-a-trello-board.html"/>
+   <appContext helpID="t_creating-an-user-account"
+               path="source/t_creating-an-user-account.html"/>
+   <appContext helpID="t_creating-a-personal-organization"
+               path="source/t_creating-a-personal-organization.html"/>
+   <appContext helpID="t_creating-a-business-organization"
+               path="source/t_creating-a-business-organization.html"/>
+   <appContext helpID="t_creating-a-board" path="source/t_creating-a-board.html"/>
+   <appContext helpID="t_inviting-participants"
+               path="source/t_inviting-participants.html"/>
+   <appContext helpID="t_collaborating-on-the-board"
+               path="source/t_collaborating-on-the-board.html"/>
+   <appContext helpID="t_creating-lists-on-the-board"
+               path="source/t_creating-lists-on-the-board.html"/>
+   <appContext helpID="t_creating-cards-on-the-board"
+               path="source/t_creating-cards-on-the-board.html"/>
+   <appContext helpID="t_assigning-members-to-cards"
+               path="source/t_assigning-members-to-cards.html"/>
+   <appContext helpID="t_setting-due-dates" path="source/t_setting-due-dates.html"/>
+   <appContext helpID="t_setting-labels" path="source/t_setting-labels.html"/>
+   <appContext helpID="t_prioritizing-by-voting-on-cards"
+               path="source/t_prioritizing-by-voting-on-cards.html"/>
+   <appContext helpID="t_monitoring-trello-boards"
+               path="source/t_monitoring-trello-boards.html"/>
+   <appContext helpID="t_checking-activity-history"
+               path="source/t_checking-activity-history.html"/>
+   <appContext helpID="t_subscribing" path="source/t_subscribing.html"/>
+   <appContext helpID="t_creating-a-calendar" path="source/t_creating-a-calendar.html"/>
+   <appContext helpID="t_adding-content-to-cards"
+               path="source/t_adding-content-to-cards.html"/>
+   <appContext helpID="r_card-title" path="source/r_card-title.html"/>
+   <appContext helpID="r_card-description" path="source/r_card-description.html"/>
+   <appContext helpID="r_card-checklists" path="source/r_card-checklists.html"/>
+   <appContext helpID="r_card-attachments" path="source/r_card-attachments.html"/>
+   <appContext helpID="r_card-comments" path="source/r_card-comments.html"/>
+   <appContext helpID="r_mentions-on-cards" path="source/r_mentions-on-cards.html"/>
+   <appContext helpID="t_exporting-content-from-trello"
+               path="source/t_exporting-content-from-trello.html"/>
+   <appContext helpID="t_sharing-board-contents"
+               path="source/t_sharing-board-contents.html"/>
+   <appContext helpID="t_printing-board-contents"
+               path="source/t_printing-board-contents.html"/>
+   <appContext helpID="t_exporting-board-contents"
+               path="source/t_exporting-board-contents.html"/>
+   <appContext helpID="t_changing-items" path="source/t_changing-items.html"/>
+   <appContext helpID="t_moving-items" path="source/t_moving-items.html"/>
+   <appContext helpID="t_copying-items" path="source/t_copying-items.html"/>
+   <appContext helpID="t_archiving-items" path="source/t_archiving-items.html"/>
+   <appContext helpID="t_deleting-cards" path="source/t_deleting-cards.html"/>
+   <appContext helpID="t_closing-boards" path="source/t_closing-boards.html"/>
+   <appContext helpID="r_examples-of-boards" path="source/r_examples-of-boards.html"/>
+   <appContext helpID="r_shortcuts-and-tips" path="source/r_shortcuts-and-tips.html"/>
+</map>
