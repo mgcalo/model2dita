@@ -9,7 +9,7 @@
 	<mapref href="prod-keys.ditamap" format="ditamap" processing-role="resource-only"/>
 	<mapref href="img-keys.ditamap" format="ditamap" processing-role="resource-only"/>
 
-	<!-- #### CONTENT #### -->
+	<!-- #### CONTENT SECTION #### -->
 	<!--<topicref href="${topic-path}" navtitle="${topic/title}" type="${topic/type}" format="dita"></topicref>-->
 
 	<!-- #### RELTABLE SECTION #### -->

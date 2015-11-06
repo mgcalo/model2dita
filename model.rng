@@ -32,18 +32,20 @@
 				<value type="boolean">false</value>
 			</choice>
 		</element>
-		<element name="submaps">
-			<choice>
-				<value type="boolean">true</value>
-				<value type="boolean">false</value>
-			</choice>
-		</element>
+		
 		<element name="img-folders">
 			<choice>
 				<value type="boolean">true</value>
 				<value type="boolean">false</value>
 			</choice>
-		</element></element>
+		</element>
+			<element name="submaps">
+				<choice>
+					<value type="boolean">true</value>
+					<value type="boolean">false</value>
+				</choice>
+			</element>
+		</element>
 	</define>
 	
 	<define name="outline">

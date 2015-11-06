@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="model.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../model.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <model xmlns="http://thinkdita.org/ns/model2dita">
 	<projectname>Trello Guide</projectname>
 	<language>en-US</language>
 	<folders>
 		<keymaps>0</keymaps>
-		<subfolders>0</subfolders>
+		<subfolders>1</subfolders>
 		<img-folders>0</img-folders>
 		<submaps>0</submaps>
 	</folders>
