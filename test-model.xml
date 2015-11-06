@@ -4,10 +4,10 @@
 	<projectname>Trello Guide</projectname>
 	<language>en-US</language>
 	<folders>
-		<keymaps>0</keymaps>
-		<subfolders>0</subfolders>
-		<img-folders>0</img-folders>
-		<submaps>0</submaps>
+		<keymaps>1</keymaps>
+		<subfolders>1</subfolders>
+		<img-folders>1</img-folders>
+		<submaps>1</submaps>
 	</folders>
 	<topic>
 		<level>1</level>
