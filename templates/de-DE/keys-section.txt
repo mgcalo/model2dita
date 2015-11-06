@@ -1,0 +1,4 @@
+ <!-- #### KEYS SECTION #### -->
+ <mapref href="prod-keys.ditamap" format="ditamap" processing-role="resource-only"/>
+ <mapref href="img-keys.ditamap" format="ditamap" processing-role="resource-only"/>
+ <!-- #### CONTENT #### -->
