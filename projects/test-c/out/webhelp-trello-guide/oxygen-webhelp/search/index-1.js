@@ -1,0 +1,61 @@
+// Auto generated list of analyzer stop words that must be ignored by search.
+stopWords = new Array();
+stopWords[0]= "but";
+stopWords[1]= "be";
+stopWords[2]= "with";
+stopWords[3]= "such";
+stopWords[4]= "then";
+stopWords[5]= "for";
+stopWords[6]= "no";
+stopWords[7]= "will";
+stopWords[8]= "not";
+stopWords[9]= "are";
+stopWords[10]= "and";
+stopWords[11]= "their";
+stopWords[12]= "if";
+stopWords[13]= "this";
+stopWords[14]= "on";
+stopWords[15]= "into";
+stopWords[16]= "a";
+stopWords[17]= "or";
+stopWords[18]= "there";
+stopWords[19]= "in";
+stopWords[20]= "that";
+stopWords[21]= "they";
+stopWords[22]= "was";
+stopWords[23]= "is";
+stopWords[24]= "it";
+stopWords[25]= "an";
+stopWords[26]= "the";
+stopWords[27]= "as";
+stopWords[28]= "at";
+stopWords[29]= "these";
+stopWords[30]= "by";
+stopWords[31]= "to";
+stopWords[32]= "of";
+
+var indexerLanguage="en";
+
+// Auto generated index for searching.
+w["account"]="39*30,41*5";
+w["activity"]="25*30,27*5";
+w["adding"]="0*0,1*0,2*0,3*0,4*0,5*0,6*30";
+w["agile"]="29*30,31*5";
+w["archiving"]="7*30,8*5";
+w["assigning"]="13*30,14*5";
+w["attachments"]="0*30,6*5";
+w["board"]="13*0,14*40,15*31,16*31,17*0,18*0,19*0,21*30,22*15,23*30,24*30,36*31,37*5,38*0,39*0,40*0,41*30";
+w["boards"]="8*5,9*30,20*30,25*0,26*0,27*30,28*0,29*30,31*5";
+w["brainstorming"]="30*30,31*5,33*0,34*0";
+w["business"]="36*0,37*30,40*0,41*5";
+w["calendar"]="26*30,27*5";
+w["card"]="0*30,1*30,2*30,3*30,4*30,6*25";
+w["cards"]="0*0,1*0,2*0,3*0,4*0,5*31,6*35,8*5,11*30,13*30,14*15,15*30,17*30";
+w["changing"]="7*0,8*30,9*0,10*0,11*0,12*0";
+w["checking"]="25*30,27*5";
+w["checklists"]="1*30,6*5";
+w["closing"]="8*5,9*30";
+w["collaborating"]="13*0,14*30,15*0,16*0,17*0,18*0,19*0";
+w["comments"]="2*30,6*5";
+w["content"]="0*0,1*0,2*0,3*0,4*0,5*0,6*30,21*0,22*30,23*0,24*0";
+

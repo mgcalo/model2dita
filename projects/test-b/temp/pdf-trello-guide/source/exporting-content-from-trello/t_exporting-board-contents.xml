@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\Magda.Caloian\Documents\model2dita\projects\test-b\temp\pdf-trello-guide\source\exporting-content-from-trello?><?workdir-uri file:/C:/Users/Magda.Caloian/Documents/model2dita/projects/test-b/temp/pdf-trello-guide/source/exporting-content-from-trello/?><?path2project ..\..\?><?path2project-uri ../../?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-US" id="t_exporting-board-contents" ditaarch:DITAArchVersion="1.2" domains="(topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic task strictTaskbody-c)    " class="- topic/topic task/task " xtrf="C:\Users\Magda.Caloian\Documents\model2dita\projects\test-b\source\exporting-content-from-trello\t_exporting-board-contents.xml" xtrc="task:1;3:56">
+	<title class="- topic/title " xtrf="C:\Users\Magda.Caloian\Documents\model2dita\projects\test-b\source\exporting-content-from-trello\t_exporting-board-contents.xml" xtrc="title:1;4:9">Exporting board contents</title>
+	<taskbody class="- topic/body task/taskbody " xtrf="C:\Users\Magda.Caloian\Documents\model2dita\projects\test-b\source\exporting-content-from-trello\t_exporting-board-contents.xml" xtrc="taskbody:1;5:12">
+		<context class="- topic/section task/context " xtrf="C:\Users\Magda.Caloian\Documents\model2dita\projects\test-b\source\exporting-content-from-trello\t_exporting-board-contents.xml" xtrc="context:1;6:12">
+			<p class="- topic/p " xtrf="C:\Users\Magda.Caloian\Documents\model2dita\projects\test-b\source\exporting-content-from-trello\t_exporting-board-contents.xml" xtrc="p:1;7:8"/>
+		</context>
+		<steps class="- topic/ol task/steps " xtrf="C:\Users\Magda.Caloian\Documents\model2dita\projects\test-b\source\exporting-content-from-trello\t_exporting-board-contents.xml" xtrc="steps:1;9:10">
+			<step class="- topic/li task/step " xtrf="C:\Users\Magda.Caloian\Documents\model2dita\projects\test-b\source\exporting-content-from-trello\t_exporting-board-contents.xml" xtrc="step:1;10:10">
+				<cmd class="- topic/ph task/cmd " xtrf="C:\Users\Magda.Caloian\Documents\model2dita\projects\test-b\source\exporting-content-from-trello\t_exporting-board-contents.xml" xtrc="cmd:1;11:11"/>
+			</step>
+		</steps>
+	</taskbody>
+</task>
