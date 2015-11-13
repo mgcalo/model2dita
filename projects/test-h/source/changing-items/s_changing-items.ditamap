@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Trello Guide</title>
+	<topicref href="source/changing-items/t_moving-items.xml" navtitle="Moving items" format="dita" type="task"/><topicref href="source/changing-items/t_copying-items.xml" navtitle="Copying items" format="dita" type="task"/><topicref href="source/changing-items/t_archiving-items.xml" navtitle="Archiving items" format="dita" type="task"/><topicref href="source/changing-items/t_deleting-cards.xml" navtitle="Deleting cards" format="dita" type="task"/><topicref href="source/changing-items/t_closing-boards.xml" navtitle="Closing boards" format="dita" type="task"/>
+</map>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Trello Guide</title>
+	<topicref href="source/exporting-content-from-trello/t_sharing-board-contents.xml" navtitle="Sharing board contents" format="dita" type="task"/><topicref href="source/exporting-content-from-trello/t_printing-board-contents.xml" navtitle="Printing board contents" format="dita" type="task"/><topicref href="source/exporting-content-from-trello/t_exporting-board-contents.xml" navtitle="Exporting board contents" format="dita" type="task"/>
+</map>
