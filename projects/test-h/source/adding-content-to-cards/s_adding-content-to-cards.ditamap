@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
-<map xml:lang="en-US">
-	<title>Trello Guide</title>
-	<topicref href="source/adding-content-to-cards/r_card-title.xml" navtitle="Card title" format="dita" type="reference"/><topicref href="source/adding-content-to-cards/r_card-description.xml" navtitle="Card description" format="dita" type="reference"/><topicref href="source/adding-content-to-cards/r_card-checklists.xml" navtitle="Card checklists" format="dita" type="reference"/><topicref href="source/adding-content-to-cards/r_card-attachments.xml" navtitle="Card attachments" format="dita" type="reference"/><topicref href="source/adding-content-to-cards/r_card-comments.xml" navtitle="Card comments" format="dita" type="reference"/><topicref href="source/adding-content-to-cards/r_mentions-on-cards.xml" navtitle="Mentions on cards" format="dita" type="reference"/>
-</map>
