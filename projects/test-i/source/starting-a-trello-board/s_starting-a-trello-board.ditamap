@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Trello Guide</title>
+	<topicref href="t_creating-an-user-account.xml" navtitle="Creating an user account" format="dita" type="task"/><topicref href="t_creating-a-personal-organization.xml" navtitle="Creating a personal organization" format="dita" type="task"/><topicref href="t_creating-a-business-organization.xml" navtitle="Creating a business organization" format="dita" type="task"><topicref href="t_creating-a-board.xml" navtitle="Creating a board" format="dita" type="task"><topicref href="t_inviting-participants.xml" navtitle="Inviting participants" format="dita" type="task"/></topicref></topicref>
+</map>
