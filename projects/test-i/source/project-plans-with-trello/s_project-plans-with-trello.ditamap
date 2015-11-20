@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
-<map xml:lang="en-US">
-	<title>Trello Guide</title>
-	<topicref href="c_to-do-lists.xml" navtitle="To-do lists" format="dita" type="concept"/><topicref href="c_agile-boards.xml" navtitle="Agile boards" format="dita" type="concept"/><topicref href="c_brainstorming.xml" navtitle="Brainstorming" format="dita" type="concept"><topicref href="c_voting.xml" navtitle="Voting" format="dita" type="concept"/><topicref href="c_writing-drafts.xml" navtitle="Writing drafts" format="dita" type="concept"/></topicref>
-</map>

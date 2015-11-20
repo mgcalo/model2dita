@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="model.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<model xmlns="http://thinkdita.org/ns/model2dita">
+	<projectname>Trello Guide</projectname>
+	<language>en-US</language>
+	<folders>
+		<keymaps>1</keymaps>
+		<subfolders>0</subfolders>
+		<img-folders>0</img-folders>
+		<submaps>0</submaps>
+	</folders>
+	<topic>
+		<level>1</level>
+		<title>The thumbnail for the lightening arrestor for a transistorised autograph book</title>
+		<type>concept</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Topic Test</title>
+		<type>task</type>
+		<filename>t_topictest.xml</filename>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Before you start</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Important to know</title>
+		<type>concept</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>3</level>
+		<title>Before you switch it on</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Run fast</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<!--<topic>
+		<level>2</level>
+		<title>Don´t stop running</title>
+		<type>topic</type>
+		<filename/>
+	</topic>-->
+	<topic>
+		<level>1</level>
+		<title>Wait a while</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Watch</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Creating a personal organization</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Creating a business organization</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Creating a board</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+
+</model>

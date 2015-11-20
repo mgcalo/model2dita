@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Trello Guide</title>
+	<!-- #### KEYS SECTION #### -->
+	<mapref href="prod-keys.ditamap" format="ditamap" processing-role="resource-only"/>
+	<mapref href="source/aa_img/img-keys.ditamap" format="ditamap" processing-role="resource-only"/>
+	<!-- #### CONTENT #### -->
+	<topicref
+		href="source/the-thumbnail-for-the-lightening-arrestor-for-a-transistorised-autograph-book/c_the-thumbnail-for-the-lightening-arrestor-for-a-transistorised-autograph-book.xml"
+		navtitle="The thumbnail for the lightening arrestor for a transistorised autograph book" format="dita" type="concept">
+		<topicref href="source/the-thumbnail-for-the-lightening-arrestor-for-a-transistorised-autograph-book/r_before-you-start.xml"
+			navtitle="Before you start" format="dita" type="reference"/>
+		<topicref href="source/the-thumbnail-for-the-lightening-arrestor-for-a-transistorised-autograph-book/c_important-to-know.xml"
+			navtitle="Important to know" format="dita" type="concept"/>
+		<topicref href="source/the-thumbnail-for-the-lightening-arrestor-for-a-transistorised-autograph-book/t_before-you-switch-it-on.xml"
+			navtitle="Before you switch it on" format="dita" type="task"/>
+		<topicref href="source/the-thumbnail-for-the-lightening-arrestor-for-a-transistorised-autograph-book/t_run-fast.xml"
+			navtitle="Run fast" format="dita" type="task"/>
+		<topicref href="source/the-thumbnail-for-the-lightening-arrestor-for-a-transistorised-autograph-book/t_dont-stop-running.xml"
+			navtitle="Don�t stop running" format="dita" type="topic"/>
+	</topicref>
+	<topicref href="source/wait-a-while/r_wait-a-while.xml" navtitle="Wait a while" format="dita" type="reference">
+		<topicref href="source/wait-a-while/t_watch.xml" navtitle="Watch" format="dita" type="task"/>
+		<topicref href="source/wait-a-while/t_creating-a-personal-organization.xml" navtitle="Creating a personal organization" format="dita"
+			type="task"/>
+		<topicref href="source/wait-a-while/t_creating-a-business-organization.xml" navtitle="Creating a business organization" format="dita"
+			type="task"/>
+		<topicref href="source/wait-a-while/t_creating-a-board.xml" navtitle="Creating a board" format="dita" type="task"/>
+	</topicref>
+</map>

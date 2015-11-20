@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
-<map xml:lang="en-US">
-	<title>Trello Guide</title>
-	<topicref href="t_checking-activity-history.xml" navtitle="Checking activity history" format="dita" type="task"/><topicref href="t_subscribing.xml" navtitle="Subscribing" format="dita" type="task"/><topicref href="t_creating-a-calendar.xml" navtitle="Creating a calendar" format="dita" type="task"/>
-</map>
