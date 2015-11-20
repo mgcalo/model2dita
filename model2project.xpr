@@ -215,6 +215,7 @@
         <folder path="resources/"/>
         <folder path="templates/"/>
         <folder path="test-models/"/>
+        <file name="catalog.xml"/>
         <file name="model.rng"/>
         <file name="model2dita.framework"/>
         <file name="pom.xml"/>
