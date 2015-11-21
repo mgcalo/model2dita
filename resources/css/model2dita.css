@@ -4,7 +4,6 @@ oxy|comment{
 	display: none !important;
 }
 
-
 *{
     -oxy-display-tags: none;
 }
@@ -22,7 +21,6 @@ projectname{
     padding:0.4em;
     content: oxy_textfield(edit, '#text', width, 75%);
     visibility: -oxy-collapse-text;
-
 }
 
 language:before{
@@ -46,6 +44,8 @@ folders{
     display: block;
     border: 1px solid silver;
     padding: 0.4em;
+    margin-top:1em;
+    margin-bottom:1em;
     width:93%;
 }
 
@@ -80,59 +80,51 @@ folders > submaps{
 
 topic{
 	display: block;
-	padding-top: 5pt;
-	/*border-style:solid;
-	border-color:silver;
-	border-width:0.5px;*/
-	/*content:oxy_xpath("string-join(./ancestor-or-self::*\/local-name(), '/')");*/
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
 }
 
-
-
 topic > level{
-	display: inline-block;
-	/*content:oxy_label(text, "Level: ", width, 40px)*/
+	display: inline;
 	content: oxy_combobox(edit, '#text', editable, false, values, '1, 2, 3, 4');
-	/*padding-left:oxy_multiply(oxy_xpath("xs:float(text())"), 15, 'pt');*/
-	padding-left: oxy_xpath("concat(text(),'0mm')");
+	padding-left: oxy_xpath("concat((number(text())-1)*2,'em')");
 	visibility: -oxy-collapse-text;
 }
 
 topic > title{
-	display: inline-block;
-	padding-left: 5pt;
-	/*content:oxy_label(text, "Title: ", width, 40px)*/
+	display: inline;
+	padding-left: 0.2em;
 	content: oxy_textfield(edit, '#text', columns, 40);
 	visibility: -oxy-collapse-text;
-
 }
 
 topic > type{
-	display: inline-block;
-	padding-left: 5pt;
-	/*content:oxy_label(text, "Type: ", width, 10px)*/
+	display: inline;
+	padding-left: 0.2em;
 	content: oxy_combobox(edit, '#text', editable, false, values, 'task, reference, concept, glossentry, topic');
 	visibility: -oxy-collapse-text;
 
 }
 
 topic > filename{
-	display: inline-block;
-	padding-left: 5pt;
+	display: inline;
+	padding-left: 0.2em;
 	font-size: 0.75em;
 	color: green;
-	/*content:oxy_label(text, "Filename: ", width, 15px)*/
-	/*		content:oxy_textfield(edit, '#text', columns, 15, values, oxy_lowercase(oxy_replace(oxy_concat("t_", oxy_xpath("normalize-space(preceding-sibling::title)"),".xml"),' ','-')));*/
-	/*	content: oxy_xpath("lower-case(replace(concat(substring(preceding-sibling::type,1,1), '_', normalize-space(preceding-sibling::title), '.xml'), ' ', '-'))");
-*/
+	visibility: -oxy-collapse-text;
 }
+
+topic > filename{
+	content: oxy_xpath("string()");
+}
+
 
 topic > filename:empty{
 	content: oxy_xpath("lower-case(replace(concat(substring(preceding-sibling::type,1,1), '_', normalize-space(preceding-sibling::title), '.xml'), ' ', '-'))");
-
 }
 
-topic > filename:focus{
+topic > filename:focus,
+topic > filename:hover{
 	content: oxy_textfield(edit, '#text', columns, 15);
 }
 
