@@ -31,7 +31,18 @@
 											<String>${framework}/resources/css/model2dita.css</String>
 										</field>
 										<field name="title">
-											<String></String>
+											<String>Default</String>
+										</field>
+										<field name="alternate">
+											<Boolean>false</Boolean>
+										</field>
+									</cssFile>
+									<cssFile>
+										<field name="href">
+											<String>${framework}/resources/css/actions.css</String>
+										</field>
+										<field name="title">
+											<String>Actions</String>
 										</field>
 										<field name="alternate">
 											<Boolean>false</Boolean>

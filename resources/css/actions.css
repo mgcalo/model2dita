@@ -1,0 +1,229 @@
+@namespace oxy "http://www.oxygenxml.com/extensions/author";
+
+oxy|comment{
+	display: none !important;
+}
+
+*{
+    -oxy-display-tags: none;
+}
+
+:root{
+    margin: 1em;
+    font-family:arial, helvetica, sans-serif;
+}
+
+projectname:before{
+    content: oxy_label(text, "Project name: ", width, 20%);
+}
+
+projectname{
+    display: block;
+    padding:0.4em;
+    content: oxy_textfield(edit, '#text', width, 75%);
+    visibility: -oxy-collapse-text;
+}
+
+language:before{
+    content: oxy_label(text, "Language:", width, 20%);
+}
+
+language{
+    display: block;
+    padding:0.4em;
+    content: 
+        oxy_combobox(edit, "#text", editable, true, values, "en-US, de-DE");
+    visibility: -oxy-collapse-text;
+}
+
+folders:before {
+    display:block;
+    content :"Folder options";
+}
+
+folders{
+    display: block;
+    border: 1px solid silver;
+    padding: 0.4em;
+    margin-top:1em;
+    margin-bottom:1em;
+    width:93%;
+}
+
+folders > keymaps{
+    display: block;
+    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create keymaps');
+    visibility: -oxy-collapse-text;
+
+}
+
+folders > subfolders{
+    display: block;
+    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create subfolders:');
+    visibility: -oxy-collapse-text;
+}
+
+folders > img-folders{
+    display: block;
+    background-color: #FAFAFA;
+    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create image subfolders');
+    visibility: -oxy-collapse-text;
+    padding-left:1em;
+}
+
+folders > submaps{
+    display: block;
+    background-color: #FAFAFA;
+    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create submaps');
+    visibility: -oxy-collapse-text;
+    padding-left:1em;
+}
+
+topic{    
+    position:relative;
+    vertical-align:middle;
+	display: block;
+	padding-left: oxy_xpath("concat((number(level)-1)*2,'em')");
+	
+	margin-left:1.5em;
+	margin-right:1.5em;
+}
+
+
+topic:hover:before,
+topic:focus-within:before{
+    display:block;
+    position:absolute;
+    top:0.2em;
+    left:-2.5em;
+    content:
+      oxy_button(showIcon, true, transparent, true,
+        action, oxy_action(
+          name, 'Decrease level',
+          description, 'Decrease the topic level', 
+          operation, 'ro.sync.ecss.extensions.commons.operations.XSLTOperation', 
+          icon, url('images/NodePromote16.png'),          
+          arg-script, '<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"><xsl:import href="resources/actions/levelMinus.xsl"/></xsl:stylesheet>'
+          arg-action, 'Replace'
+        )
+      )
+      oxy_button(showIcon, true, transparent, true,
+        action, oxy_action(
+          name, 'Increase level',
+          description, 'Increase the topic level', 
+          operation, 'ro.sync.ecss.extensions.commons.operations.XSLTOperation', 
+          icon, url('images/NodeDemote16.png'),          
+          arg-script, '<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"><xsl:import href="resources/actions/levelPlus.xsl"/></xsl:stylesheet>'
+          arg-action, 'Replace'
+        )
+      )
+    ;
+}
+
+topic:hover:after,
+topic:focus-within:after{
+    display:block;
+    position:absolute;
+    top:0.4em;
+    right:-1.5em;
+    text-align:right;
+    content:
+      oxy_button(showIcon, true, transparent, true,
+        action, oxy_action(
+          name, 'Add topic',
+          description, 'Add topic', 
+          operation, 'ro.sync.ecss.extensions.commons.operations.XSLTOperation', 
+          icon, url('images/add16.png'),          
+          arg-script, '<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"><xsl:import href="resources/actions/addTopic.xsl"/></xsl:stylesheet>'
+          arg-action, 'After'
+        )
+      )
+      
+    ;
+}
+
+topic > level{
+	display: none;
+}
+
+topic > title{
+	display: inline-block;
+	padding-left: 0.2em;
+	width:20em;
+	min-width:20em;
+	border:1px solid transparent;
+}
+
+topic > title:hover {
+    border:1px solid silver;
+}
+
+topic > title:focus {
+    border:1px solid blue;
+}
+
+topic > type{
+	display: inline;
+    padding-left: oxy_xpath("concat((4-number(../level))*2,'em')");
+    content: oxy_combobox(edit, '#text', editable, false,  values, 'task, reference, concept, glossentry, topic');
+	visibility: -oxy-collapse-text;
+}
+
+topic > filename{
+	display: inline;
+	padding-left: 0.2em;
+	font-size: 0.75em;
+	color: green;
+	visibility: -oxy-collapse-text;
+}
+
+topic > filename{
+	content: oxy_xpath("string()");
+}
+topic > filename:empty{
+	content: oxy_xpath("lower-case(replace(concat(substring(preceding-sibling::type,1,1), '_', normalize-space(preceding-sibling::title), '.xml'), ' ', '-'))");
+}
+topic > filename:-oxy-edit {
+    content: oxy_textfield(edit, '#text', columns, 15);;
+}
+
+topic:hover > filename:after,
+topic:focus-within > filename:after{
+    content:
+       oxy_button(transparent, true, action, oxy_action(
+          name, 'Edit', 
+          description, 'Edit', 
+          icon, url('images/edit16.png'), 
+          operation, 'ro.sync.ecss.extensions.commons.operations.ChangePseudoClassesOperation', 
+          arg-setPseudoClassNames, '-oxy-edit'          
+        ), showIcon, true);
+    ;
+}
+
+topic> filename:-oxy-edit:after {
+    content:
+       oxy_button(transparent, true, action, oxy_action(
+          name, 'Edit', 
+          description, 'Edit', 
+          icon, url('images/done16.png'), 
+          operation, 'ro.sync.ecss.extensions.commons.operations.ChangePseudoClassesOperation', 
+          arg-removePseudoClassNames, '-oxy-edit'          
+        ), showIcon, true);
+    ;
+}
+
+
+
+model:after{
+    margin-top:1em;
+    padding-top:1em;
+    display:block;
+    border-top:1px solid silver;
+	content: oxy_button(action, 
+	   oxy_action(
+        name, 'Generate', 
+        description, 'Generate DITA from model', 
+        icon, url('insert.png'), 
+        operation, 'org.thinkdita.model2dita.GenerateOperation'
+    ))
+}
