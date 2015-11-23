@@ -5,139 +5,139 @@ oxy|comment{
 }
 
 *{
-	/*visibility:-oxy-collapse-text;*/
-	-oxy-display-tags: none;
+    -oxy-display-tags: none;
+}
+
+:root{
+    margin: 1em;
+}
+
+projectname:before{
+    content: oxy_label(text, "Project name: ", width, 20%);
 }
 
 projectname{
-	display: inline-block;
-	margin-left: 5pt;
-	padding: 5pt;
-	content: oxy_label(text, "Project name: ", width, 40px)
- oxy_textfield(edit, '#text', columns, 10);
-	/*	content:oxy_urlChooser(edit,"#text", columns, 25);*/
-	visibility: -oxy-collapse-text;
+    display: block;
+    padding:0.4em;
+    content: oxy_textfield(edit, '#text', width, 75%);
+    visibility: -oxy-collapse-text;
+}
 
+language:before{
+    content: oxy_label(text, "Language:", width, 20%);
 }
 
 language{
-	display: inline-block;
-	padding: 5pt;
-	content: oxy_label(text, "Language: ", width, 40px)
- oxy_combobox(edit, "#text", columns, 10, editable, true, values, "en-US, de-DE");
-	visibility: -oxy-collapse-text;
+    display: block;
+    padding:0.4em;
+    content: 
+        oxy_combobox(edit, "#text", editable, true, values, "en-US, de-DE");
+    visibility: -oxy-collapse-text;
+}
 
+folders:before {
+    display:block;
+    content :"Folder options";
 }
 
 folders{
-	display: block;
-	width: 60%;
-	border-style: solid;
-	border-color: silver;
-	border-width: 0.5px;
-	padding: 5pt;
+    display: block;
+    border: 1px solid silver;
+    padding: 0.4em;
+    margin-top:1em;
+    margin-bottom:1em;
+    width:93%;
 }
 
 folders > keymaps{
-	display: inline-block;
-	padding: 5pt;
-	content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create keymaps');
-	visibility: -oxy-collapse-text;
+    display: block;
+    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create keymaps');
+    visibility: -oxy-collapse-text;
 
 }
 
 folders > subfolders{
-	display: inline-block;
-	padding: 5pt;
-	content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create subfolders:');
-	visibility: -oxy-collapse-text;
-
-}
-
-
-folders > submaps{
-	display: inline-block;
-	background-color: #FAFAFA;
-	padding: 5pt;
-	padding-top: 15pt;
-	content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create submaps');
-	visibility: -oxy-collapse-text;
-
+    display: block;
+    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create subfolders:');
+    visibility: -oxy-collapse-text;
 }
 
 folders > img-folders{
-	display: inline-block;
-	background-color: #FAFAFA;
-	padding: 5pt;
-	padding-top: 15pt;
-	content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create image subfolders');
-	visibility: -oxy-collapse-text;
+    display: block;
+    background-color: #FAFAFA;
+    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create image subfolders');
+    visibility: -oxy-collapse-text;
+    padding-left:1em;
+}
 
+folders > submaps{
+    display: block;
+    background-color: #FAFAFA;
+    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create submaps');
+    visibility: -oxy-collapse-text;
+    padding-left:1em;
 }
 
 topic{
 	display: block;
-	padding-top: 5pt;
-	/*border-style:solid;
-	border-color:silver;
-	border-width:0.5px;*/
-	/*content:oxy_xpath("string-join(./ancestor-or-self::*\/local-name(), '/')");*/
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
 }
 
-
-
 topic > level{
-	display: inline-block;
-	/*content:oxy_label(text, "Level: ", width, 40px)*/
+	display: inline;
 	content: oxy_combobox(edit, '#text', editable, false, values, '1, 2, 3, 4');
-	/*padding-left:oxy_multiply(oxy_xpath("xs:float(text())"), 15, 'pt');*/
-	padding-left: oxy_xpath("concat(text(),'0mm')");
+	padding-left: oxy_xpath("concat((number(text())-1)*2,'em')");
 	visibility: -oxy-collapse-text;
 }
 
 topic > title{
-	display: inline-block;
-	padding-left: 5pt;
-	/*content:oxy_label(text, "Title: ", width, 40px)*/
+	display: inline;
+	padding-left: 0.2em;
 	content: oxy_textfield(edit, '#text', columns, 40);
 	visibility: -oxy-collapse-text;
-
 }
 
 topic > type{
-	display: inline-block;
-	padding-left: 5pt;
-	/*content:oxy_label(text, "Type: ", width, 10px)*/
+	display: inline;
+	padding-left: 0.2em;
 	content: oxy_combobox(edit, '#text', editable, false, values, 'task, reference, concept, glossentry, topic');
 	visibility: -oxy-collapse-text;
 
 }
 
 topic > filename{
-	display: inline-block;
-	padding-left: 5pt;
+	display: inline;
+	padding-left: 0.2em;
 	font-size: 0.75em;
 	color: green;
-	/*content:oxy_label(text, "Filename: ", width, 15px)*/
-	/*		content:oxy_textfield(edit, '#text', columns, 15, values, oxy_lowercase(oxy_replace(oxy_concat("t_", oxy_xpath("normalize-space(preceding-sibling::title)"),".xml"),' ','-')));*/
-	/*	content: oxy_xpath("lower-case(replace(concat(substring(preceding-sibling::type,1,1), '_', normalize-space(preceding-sibling::title), '.xml'), ' ', '-'))");
-*/
+	visibility: -oxy-collapse-text;
 }
+
+topic > filename{
+	content: oxy_xpath("string()");
+}
+
 
 topic > filename:empty{
 	content: oxy_xpath("lower-case(replace(concat(substring(preceding-sibling::type,1,1), '_', normalize-space(preceding-sibling::title), '.xml'), ' ', '-'))");
-
 }
 
-topic > filename:focus{
+topic > filename:focus,
+topic > filename:hover{
 	content: oxy_textfield(edit, '#text', columns, 15);
 }
 
 model:after{
-	content: oxy_button(action, oxy_action(
-name, 'Generate', 
-description, 'Generate DITA from model', 
-icon, url('insert.png'), 
-operation, 'org.thinkdita.model2dita.GenerateOperation'
-))
+    margin-top:1em;
+    padding-top:1em;
+    display:block;
+    border-top:1px solid silver;
+	content: oxy_button(action, 
+	   oxy_action(
+        name, 'Generate', 
+        description, 'Generate DITA from model', 
+        icon, url('insert.png'), 
+        operation, 'org.thinkdita.model2dita.GenerateOperation'
+    ))
 }
