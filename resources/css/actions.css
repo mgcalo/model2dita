@@ -221,7 +221,6 @@ model:after{
 	   oxy_action(
         name, 'Generate', 
         description, 'Generate DITA from model', 
-        icon, url('insert.png'), 
         operation, 'org.thinkdita.model2dita.GenerateOperation'
     ))
 }
