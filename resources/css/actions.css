@@ -15,7 +15,6 @@ model{
     display:table;
     margin: 2em;
     margin-left: 3em;
-    
     font-family:arial, helvetica, sans-serif;    
 }
 
@@ -83,7 +82,6 @@ folders > submaps{
 
 topic{    
 	display:table-row;
-	padding-left: oxy_xpath("concat((number(level)-1)*2,'em')");
 }
 
 topic > level{
@@ -138,7 +136,6 @@ topic > title{
 	border:1px solid transparent;
     -oxy-placeholder-content:"Enter topic title";
     -oxy-show-placeholder:always;
-    line-height:1.6em;
 }
 
 topic:hover > title {
@@ -160,7 +157,6 @@ topic > filename{
 	display: table-cell;
 	position:relative;
 	font-size: 1em;
-	line-height:1.2em;
 	font-size:0.75em;
 	color: green;
 	border:1px solid transparent;
