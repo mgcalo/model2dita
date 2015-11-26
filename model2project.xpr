@@ -8,7 +8,7 @@
                     <entry>
                         <String>additional.frameworks.directories</String>
                         <String-array>
-                            <String>${pd}/../</String>
+                            <String>${pd}</String>
                         </String-array>
                     </entry>
                     <entry>
