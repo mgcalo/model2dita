@@ -148,7 +148,7 @@ topic > title:focus {
 
 topic > type {
 	display: table-cell;
-    content: oxy_combobox(edit, '#text', editable, false,  values, 'task, reference, concept, glossentry, topic');
+    content: oxy_combobox(edit, '#text', editable, false,  values, 'task, reference, concept, glossentry, glossgroup, topic');
 	visibility: -oxy-collapse-text;
 }
 

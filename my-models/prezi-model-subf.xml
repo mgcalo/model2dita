@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="model.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<model xmlns="http://thinkdita.org/ns/model2dita">
+	<projectname>Prezi guide</projectname>
+	<language>en-US</language>
+	<folders>
+		<keymaps>1</keymaps>
+		<subfolders>1</subfolders>
+		<img-folders>0</img-folders>
+		<submaps>1</submaps>
+	</folders>
+	<topic>
+		<level>1</level>
+		<title>What you can do with prezi</title>
+		<type>concept</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Study projects and lectures</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Work projects and communication</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Presentations and events planning</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>How you can work with prezi</title>
+		<type>concept</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Prezi versions</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Prezi apps</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Creating a new prezi</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Choosing a template</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Adding frames and content</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Setting frames path and transition</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Adding prezi info</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Saving your prezi</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Presenting with prezi</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Presenting online</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>3</level>
+		<title>Sending invitations to attend</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>3</level>
+		<title>Setting attendee access</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Presenting offline</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>3</level>
+		<title>Saving a prezi as application</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>3</level>
+		<title>Saving a prezi as PDF</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Exporting prezi</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Embedding a prezi on other sites</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Integrating prezi with social platforms</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Collaborating on prezi</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Sharing access to a prezi</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Commenting on prezi</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Replying to comments</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Setting up canvas and schemes</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Supported content types</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Frame types</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Color schemes</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Branding</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Setting up your profile</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Types of licenses</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Team settings</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Resources</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Training</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Community</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Books</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Knowledge base</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Contacts</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+</model>

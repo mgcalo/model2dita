@@ -1,0 +1,63 @@
+// Auto generated list of analyzer stop words that must be ignored by search.
+stopWords = new Array();
+stopWords[0]= "but";
+stopWords[1]= "be";
+stopWords[2]= "with";
+stopWords[3]= "such";
+stopWords[4]= "then";
+stopWords[5]= "for";
+stopWords[6]= "no";
+stopWords[7]= "will";
+stopWords[8]= "not";
+stopWords[9]= "are";
+stopWords[10]= "and";
+stopWords[11]= "their";
+stopWords[12]= "if";
+stopWords[13]= "this";
+stopWords[14]= "on";
+stopWords[15]= "into";
+stopWords[16]= "a";
+stopWords[17]= "or";
+stopWords[18]= "there";
+stopWords[19]= "in";
+stopWords[20]= "that";
+stopWords[21]= "they";
+stopWords[22]= "was";
+stopWords[23]= "is";
+stopWords[24]= "it";
+stopWords[25]= "an";
+stopWords[26]= "the";
+stopWords[27]= "as";
+stopWords[28]= "at";
+stopWords[29]= "these";
+stopWords[30]= "by";
+stopWords[31]= "to";
+stopWords[32]= "of";
+
+var indexerLanguage="en";
+
+// Auto generated index for searching.
+w["author"]="0*0";
+w["can"]="0*0";
+w["check"]="0*1";
+w["click"]="0*28";
+w["com"]="0*26";
+w["comes"]="0*0";
+w["create"]="0*1";
+w["created"]="0*0";
+w["documentation"]="0*0";
+w["download"]="0*26";
+w["editor"]="0*26";
+w["end"]="0*0";
+w["example"]="0*0";
+w["file"]="0*29";
+w["filling"]="0*0";
+w["folder"]="0*28";
+w["from"]="0*56";
+w["generate"]="0*1";
+w["generating"]="0*30";
+w["github"]="0*52";
+w["https"]="0*26";
+w["https://github.com/mgcalo/model2dita"]="0*26";
+w["keep"]="0*0";
+

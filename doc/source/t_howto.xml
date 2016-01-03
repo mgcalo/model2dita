@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_howto" xml:lang="en-US">
+	<title>Generating the project from a model</title>
+	<taskbody>
+		<prereq>Download the open-source project <filepath>model2dita</filepath> from GitHub (<xref
+				href="https://github.com/mgcalo/model2dita" format="html" scope="external"
+				>https://github.com/mgcalo/model2dita</xref>). </prereq>
+		<steps>
+			<step>
+				<cmd>Open the project file <filepath>model2project.xpr</filepath> in oXygen
+					XML Editor, right-click the folder where you want to keep the models,
+					for example <filepath>my-models</filepath>, and select <menucascade>
+						<uicontrol>New</uicontrol>
+						<uicontrol>File</uicontrol>
+					</menucascade>.</cmd>
+			</step>
+			<step>
+				<cmd>Search for the <userinput>model</userinput> template, type the
+						<uicontrol>File name</uicontrol> for the new project model and
+					click <uicontrol>Create</uicontrol>.</cmd>
+				<info><image keyref="scn_new-model" alt="creating new model file"/></info>
+			</step>
+			<step>
+				<cmd>Use the <uicontrol>Author</uicontrol> mode when filling in the new
+					model with topics and project options.</cmd>
+				<info><image keyref="scn_prezi-model-author" alt="editing a model file"
+					/></info>
+			</step>
+			<step>
+				<cmd>When ready to generate the new project structure, click
+						<uicontrol>Generate</uicontrol> at the end of the model file and
+					create a new folder with the project name in your projects
+					repository.</cmd>
+				<stepresult><image keyref="crop_project-files" alt="newly generated project"
+					/></stepresult>
+			</step>
+			<step>
+				<cmd>Switch to the newly created project in oXygen and check the folder
+					structure and maps.</cmd>
+				<info><p>The project comes with a PDF and a Webhelp publishing scenarios,
+						which you can use to check the "skeleton" documentation.</p>
+					<image keyref="scn_scenarios" alt="creating new model file"/>
+				</info>
+			</step>
+		</steps>
+	</taskbody>
+</task>

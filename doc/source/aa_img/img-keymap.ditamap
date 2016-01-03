@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>keymap: images</title>
+	<keydef keys="scn_new-model" href="scn_new-model.jpg" format="jpg"/>
+	<keydef keys="scn_prezi-model-author" href="scn_prezi-model-author.jpg" format="jpg"/>
+	<keydef keys="crop_project-files" href="crop_project-files2.jpg" format="jpg"/>
+	<keydef keys="scn_scenarios" href="scn_scenarios.jpg" format="jpg"/>
+</map>

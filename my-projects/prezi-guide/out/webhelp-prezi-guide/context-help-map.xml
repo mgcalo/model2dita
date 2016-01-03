@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="c_what-you-can-do-with-prezi"
+               path="source/c_what-you-can-do-with-prezi.html"/>
+   <appContext helpID="r_study-projects-and-lectures"
+               path="source/r_study-projects-and-lectures.html"/>
+   <appContext helpID="r_work-projects-and-communication"
+               path="source/r_work-projects-and-communication.html"/>
+   <appContext helpID="r_presentations-and-events-planning"
+               path="source/r_presentations-and-events-planning.html"/>
+   <appContext helpID="c_how-you-can-work-with-prezi"
+               path="source/c_how-you-can-work-with-prezi.html"/>
+   <appContext helpID="r_prezi-versions" path="source/r_prezi-versions.html"/>
+   <appContext helpID="r_prezi-apps" path="source/r_prezi-apps.html"/>
+   <appContext helpID="t_creating-a-new-prezi"
+               path="source/t_creating-a-new-prezi.html"/>
+   <appContext helpID="t_choosing-a-template" path="source/t_choosing-a-template.html"/>
+   <appContext helpID="t_adding-frames-and-content"
+               path="source/t_adding-frames-and-content.html"/>
+   <appContext helpID="t_setting-frames-path-and-transition"
+               path="source/t_setting-frames-path-and-transition.html"/>
+   <appContext helpID="t_adding-prezi-info" path="source/t_adding-prezi-info.html"/>
+   <appContext helpID="t_saving-your-prezi" path="source/t_saving-your-prezi.html"/>
+   <appContext helpID="t_presenting-with-prezi"
+               path="source/t_presenting-with-prezi.html"/>
+   <appContext helpID="t_presenting-online" path="source/t_presenting-online.html"/>
+   <appContext helpID="t_sending-invitations-to-attend"
+               path="source/t_sending-invitations-to-attend.html"/>
+   <appContext helpID="t_setting-attendee-access"
+               path="source/t_setting-attendee-access.html"/>
+   <appContext helpID="t_presenting-offline" path="source/t_presenting-offline.html"/>
+   <appContext helpID="t_saving-a-prezi-as-application"
+               path="source/t_saving-a-prezi-as-application.html"/>
+   <appContext helpID="t_saving-a-prezi-as-pdf"
+               path="source/t_saving-a-prezi-as-pdf.html"/>
+   <appContext helpID="t_exporting-prezi" path="source/t_exporting-prezi.html"/>
+   <appContext helpID="t_embedding-a-prezi-on-other-sites"
+               path="source/t_embedding-a-prezi-on-other-sites.html"/>
+   <appContext helpID="t_integrating-prezi-with-social-platforms"
+               path="source/t_integrating-prezi-with-social-platforms.html"/>
+   <appContext helpID="t_collaborating-on-prezi"
+               path="source/t_collaborating-on-prezi.html"/>
+   <appContext helpID="t_sharing-access-to-a-prezi"
+               path="source/t_sharing-access-to-a-prezi.html"/>
+   <appContext helpID="t_commenting-on-prezi" path="source/t_commenting-on-prezi.html"/>
+   <appContext helpID="t_replying-to-comments"
+               path="source/t_replying-to-comments.html"/>
+   <appContext helpID="t_setting-up-canvas-and-schemes"
+               path="source/t_setting-up-canvas-and-schemes.html"/>
+   <appContext helpID="r_supported-content-types"
+               path="source/r_supported-content-types.html"/>
+   <appContext helpID="r_frame-types" path="source/r_frame-types.html"/>
+   <appContext helpID="r_color-schemes" path="source/r_color-schemes.html"/>
+   <appContext helpID="r_branding" path="source/r_branding.html"/>
+   <appContext helpID="t_setting-up-your-profile"
+               path="source/t_setting-up-your-profile.html"/>
+   <appContext helpID="r_types-of-licenses" path="source/r_types-of-licenses.html"/>
+   <appContext helpID="r_team-settings" path="source/r_team-settings.html"/>
+   <appContext helpID="r_resources" path="source/r_resources.html"/>
+   <appContext helpID="r_training" path="source/r_training.html"/>
+   <appContext helpID="r_community" path="source/r_community.html"/>
+   <appContext helpID="r_books" path="source/r_books.html"/>
+   <appContext helpID="r_knowledge-base" path="source/r_knowledge-base.html"/>
+   <appContext helpID="r_contacts" path="source/r_contacts.html"/>
+</map>

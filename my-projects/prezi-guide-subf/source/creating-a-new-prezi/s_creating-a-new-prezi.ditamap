@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Prezi guide</title>
+	<topicref href="t_choosing-a-template.xml" navtitle="Choosing a template" format="dita" type="task"/>
+	<topicref href="t_adding-frames-and-content.xml" navtitle="Adding frames and content" format="dita" type="task"/>
+	<topicref href="t_setting-frames-path-and-transition.xml" navtitle="Setting frames path and transition" format="dita" type="task"/>
+	<topicref href="t_adding-prezi-info.xml" navtitle="Adding prezi info" format="dita" type="task"/>
+	<topicref href="t_saving-your-prezi.xml" navtitle="Saving your prezi" format="dita" type="task"/>
+</map>

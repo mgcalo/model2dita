@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>model2dita howto</title>
+	<mapref href="source/aa_img/img-keymap.ditamap" processing-role="resource-only"/>
+	
+	<topicref href="source/t_howto.xml" format="dita" type="task"/>
+</map>
