@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Prezi guide submaps</title>
+	<topicref href="t_sharing-access-to-a-prezi.xml" navtitle="Sharing access to a prezi" format="dita" type="task"/><topicref href="t_commenting-on-prezi.xml" navtitle="Commenting on prezi" format="dita" type="task"/><topicref href="t_replying-to-comments.xml" navtitle="Replying to comments" format="dita" type="task"/>
+</map>

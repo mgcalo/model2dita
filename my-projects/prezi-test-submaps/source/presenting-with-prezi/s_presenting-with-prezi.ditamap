@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Prezi guide submaps</title>
+	<topicref href="t_presenting-online.xml" navtitle="Presenting online" format="dita" type="task"><topicref href="t_sending-invitations-to-attend.xml" navtitle="Sending invitations to attend" format="dita" type="task"/><topicref href="t_setting-attendee-access.xml" navtitle="Setting attendee access" format="dita" type="task"/></topicref><topicref href="t_presenting-offline.xml" navtitle="Presenting offline" format="dita" type="task"><topicref href="t_saving-a-prezi-as-application.xml" navtitle="Saving a prezi as application" format="dita" type="task"/><topicref href="t_saving-a-prezi-as-pdf.xml" navtitle="Saving a prezi as PDF" format="dita" type="task"/></topicref>
+</map>

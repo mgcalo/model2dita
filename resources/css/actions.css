@@ -7,221 +7,221 @@ oxy|comment{
 
 /* No tags */
 *{
-    -oxy-display-tags: none;
+	-oxy-display-tags: none;
 }
 
 /* Table layout for model */
 model{
-    display:table;
-    margin: 2em;
-    margin-left: 3em;
-    font-family:arial, helvetica, sans-serif;    
+	display: table;
+	margin: 2em;
+	margin-left: 3em;
+	font-family: arial, helvetica, sans-serif;
 }
 
 /* Metadata and options */
 projectname:before{
-    content: oxy_label(text, "Project name: ", width, 20%);
+	content: oxy_label(text, "Project name: ", width, 20%);
 }
 
 projectname{
-    display: block;
-    padding:0.4em;
-    content: oxy_textfield(edit, '#text', width, 75%);
-    visibility: -oxy-collapse-text;
+	display: block;
+	padding: 0.4em;
+	content: oxy_textfield(edit, '#text', width, 75%);
+	visibility: -oxy-collapse-text;
 }
 
 language:before{
-    content: oxy_label(text, "Language:", width, 20%);
+	content: oxy_label(text, "Language:", width, 20%);
 }
 
 language{
-    display: block;
-    padding:0.4em;
-    content: 
-        oxy_combobox(edit, "#text", editable, true, values, "en-US, de-DE");
-    visibility: -oxy-collapse-text;
+	display: block;
+	padding: 0.4em;
+	content: 
+	oxy_combobox(edit, "#text", editable, true, values, "en-US, de-DE");
+	visibility: -oxy-collapse-text;
 }
 
-folders:before {
-    display:block;
-    content :"Folder options:";
+folders:before{
+	display: block;
+	content: "Folder options:";
 }
 
 folders{
-    display: block;
-    border: 1px solid silver;
-    padding: 0.4em;
-    margin-top:1em;
-    margin-bottom:1em;
-    width:93%;
+	display: block;
+	border: 1px solid silver;
+	padding: 0.4em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 93%;
 }
-folders > * {
-    display: block;
-    visibility: -oxy-collapse-text;
+folders > *{
+	display: block;
+	visibility: -oxy-collapse-text;
 
 }
 folders > keymaps{
-    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create keymaps');
+	content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create keymaps');
 }
 
 folders > subfolders{
-    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create subfolders');
+	content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create subfolders');
 }
 
 folders > img-folders{
-    background-color: #FAFAFA;
-    padding-left:1em;
-    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create image subfolders');
+	background-color: #FAFAFA;
+	padding-left: 1em;
+	content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create image subfolders');
 }
 
 folders > submaps{
-    background-color: #FAFAFA;
-    padding-left:1em;
-    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create submaps');
+	background-color: #FAFAFA;
+	padding-left: 1em;
+	content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create submaps');
 }
 
-topic{    
-	display:table-row;
+topic{
+	display: table-row;
 }
 
 topic > level{
 	display: none;
 }
 
-topic > title {
-    display:table-cell;
-    position:relative;
-    padding-left: oxy_xpath("concat((number(../level)-1)*2,'em')");
+topic > title{
+	display: table-cell;
+	position: relative;
+	padding-left: oxy_xpath("concat((number(../level)-1)*2,'em')");
 }
 
 topic:hover > title:before,
 topic:focus-within > title:before{
-    width:3em;
-    display:block;
-    position:absolute;
-    left:-3em;
-    content:
-      oxy_button(showIcon, true, transparent, true,
-        action, oxy_action(
-          name, 'Decrease level',
-          description, 'Decrease the topic level', 
-          operation, 'ro.sync.ecss.extensions.commons.operations.XSLTOperation', 
-          icon, url('images/NodePromote16.png'),          
-          arg-script, '<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"><xsl:import href="resources/actions/levelMinus.xsl"/></xsl:stylesheet>'
-          arg-sourceLocation, '..',
-          arg-targetLocation, '..',
-          arg-action, 'Replace'
-        )
-      )
-      oxy_button(showIcon, true, transparent, true,
-        action, oxy_action(
-          name, 'Increase level',
-          description, 'Increase the topic level', 
-          operation, 'ro.sync.ecss.extensions.commons.operations.XSLTOperation', 
-          icon, url('images/NodeDemote16.png'),          
-          arg-script, '<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"><xsl:import href="resources/actions/levelPlus.xsl"/></xsl:stylesheet>'
-          arg-sourceLocation, '..',
-          arg-targetLocation, '..',
-          arg-action, 'Replace'
-        )
-      )
-    ;
+	width: 3em;
+	display: block;
+	position: absolute;
+	left: -3em;
+	content: 
+	oxy_button(showIcon, true, transparent, true, 
+action, oxy_action(
+name, 'Decrease level', 
+description, 'Decrease the topic level', 
+operation, 'ro.sync.ecss.extensions.commons.operations.XSLTOperation', 
+icon, url('images/NodePromote16.png'), 
+arg-script, '<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"><xsl:import href="resources/actions/levelMinus.xsl"/></xsl:stylesheet>'
+ arg-sourceLocation, '..', 
+arg-targetLocation, '..', 
+arg-action, 'Replace'
+)
+)
+ oxy_button(showIcon, true, transparent, true, 
+action, oxy_action(
+name, 'Increase level', 
+description, 'Increase the topic level', 
+operation, 'ro.sync.ecss.extensions.commons.operations.XSLTOperation', 
+icon, url('images/NodeDemote16.png'), 
+arg-script, '<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"><xsl:import href="resources/actions/levelPlus.xsl"/></xsl:stylesheet>'
+ arg-sourceLocation, '..', 
+arg-targetLocation, '..', 
+arg-action, 'Replace'
+)
+)
+	;
 }
 
 
 topic > title{
 	display: table-cell;
-	width:20em;
-	min-width:20em;
-	border:1px solid transparent;
-    -oxy-placeholder-content:"Enter topic title";
-    -oxy-show-placeholder:always;
+	width: 20em;
+	min-width: 20em;
+	border: 1px solid transparent;
+	-oxy-placeholder-content: "Enter topic title";
+	-oxy-show-placeholder: always;
 }
 
-topic:hover > title {
-    border:1px solid silver;
+topic:hover > title{
+	border: 1px solid silver;
 }
 
-topic > title:focus {
-    border:1px solid blue;
+topic > title:focus{
+	border: 1px solid blue;
 }
 
-topic > type {
+topic > type{
 	display: table-cell;
-    content: oxy_combobox(edit, '#text', editable, false,  values, 'task, reference, concept, glossentry, glossgroup, topic');
+	content: oxy_combobox(edit, '#text', editable, false, values, 'task, reference, concept, glossentry, glossgroup, topic');
 	visibility: -oxy-collapse-text;
 }
 
 topic > filename{
-    padding-right:0.5em;
+	padding-right: 0.5em;
 	display: table-cell;
-	position:relative;
-	font-size:0.75em;
+	position: relative;
+	font-size: 0.75em;
 	color: green;
-	border:1px solid transparent;
-	content:" "; 
+	border: 1px solid transparent;
+	content: " ";
 }
 
 topic:hover > filename{
-	border:1px solid silver;
+	border: 1px solid silver;
 }
 topic > filename:focus{
-	border:1px solid blue;
+	border: 1px solid blue;
 }
 
 topic > filename:empty:after{
-    color:#AAAAAA;
+	color: #AAAAAA;
 	content: oxy_xpath("lower-case(replace(concat(substring(preceding-sibling::type,1,1), '_', normalize-space(preceding-sibling::title), '.xml'), ' ', '-'))");
 }
 
 topic:hover > filename:after(10),
 topic:focus-within > filename:after(10){
-    position:absolute;
-    top:-0.2em;
-    right:-3.5em;
-    display:block;
-    width:3.5em;
-    text-align:right;
-    
-    content:
-       oxy_button(showIcon, true, transparent, true,
-        action, oxy_action(
-          name, 'Add topic',
-          description, 'Add topic', 
-          operation, 'ro.sync.ecss.extensions.commons.operations.XSLTOperation', 
-          icon, url('images/add16.png'),          
-          arg-script, '<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"><xsl:import href="resources/actions/addTopic.xsl"/></xsl:stylesheet>'
-          arg-sourceLocation, '..',
-          arg-targetLocation, '..',
-          arg-action, 'After'
-        )
-       )
-       oxy_button(showIcon, true, transparent, true,
-        action, oxy_action(
-          name, 'Add topic',
-          description, 'Add topic', 
-          operation, 'ro.sync.ecss.extensions.commons.operations.XSLTOperation', 
-          icon, url('images/remove16.png'),          
-          arg-script, '<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"><xsl:import href="resources/actions/removeTopic.xsl"/></xsl:stylesheet>'
-          arg-sourceLocation, '..',
-          arg-targetLocation, '..',
-          arg-action, 'Replace'
-        )
-      )
-    ;
+	position: absolute;
+	top: -0.2em;
+	right: -3.5em;
+	display: block;
+	width: 3.5em;
+	text-align: right;
+
+	content: 
+	oxy_button(showIcon, true, transparent, true, 
+action, oxy_action(
+name, 'Add topic', 
+description, 'Add topic', 
+operation, 'ro.sync.ecss.extensions.commons.operations.XSLTOperation', 
+icon, url('images/add16.png'), 
+arg-script, '<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"><xsl:import href="resources/actions/addTopic.xsl"/></xsl:stylesheet>'
+ arg-sourceLocation, '..', 
+arg-targetLocation, '..', 
+arg-action, 'After'
+)
+)
+ oxy_button(showIcon, true, transparent, true, 
+action, oxy_action(
+name, 'Add topic', 
+description, 'Add topic', 
+operation, 'ro.sync.ecss.extensions.commons.operations.XSLTOperation', 
+icon, url('images/remove16.png'), 
+arg-script, '<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"><xsl:import href="resources/actions/removeTopic.xsl"/></xsl:stylesheet>'
+ arg-sourceLocation, '..', 
+arg-targetLocation, '..', 
+arg-action, 'Replace'
+)
+)
+	;
 }
 
 model:after{
-    margin-top:1em;
-    padding-top:1em;
-    display:block;
-    border-top:1px solid silver;
+	margin-top: 1em;
+	padding-top: 1em;
+	display: block;
+	border-top: 1px solid silver;
 	content: oxy_button(action, 
-	   oxy_action(
-        name, 'Generate', 
-        description, 'Generate DITA from model', 
-        operation, 'org.thinkdita.model2dita.GenerateOperation'
-    ))
+oxy_action(
+name, 'Generate', 
+description, 'Generate DITA from model', 
+operation, 'org.thinkdita.model2dita.GenerateOperation'
+))
 }
 
 

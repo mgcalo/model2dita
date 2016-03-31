@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Prezi guide submaps</title>
+	<topicref href="r_study-projects-and-lectures.xml" navtitle="Study projects and lectures"
+		format="dita" type="reference"/>
+	<topicref href="r_work-projects-and-communication.xml"
+		navtitle="Work projects and communication" format="dita" type="reference"/>
+	<topicref href="r_presentations-and-events-planning.xml"
+		navtitle="Presentations and events planning" format="dita" type="reference"/>
+</map>

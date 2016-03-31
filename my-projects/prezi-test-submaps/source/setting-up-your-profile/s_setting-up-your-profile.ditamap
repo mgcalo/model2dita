@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Prezi guide submaps</title>
+	<topicref href="r_types-of-licenses.xml" navtitle="Types of licenses" format="dita" type="reference"/><topicref href="r_team-settings.xml" navtitle="Team settings" format="dita" type="reference"/>
+</map>

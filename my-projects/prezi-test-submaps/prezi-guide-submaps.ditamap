@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Prezi guide submaps</title>
+	<!-- #### KEYS SECTION #### -->
+	<mapref href="prod-keys.ditamap" format="ditamap" processing-role="resource-only"/>
+	<mapref href="source/aa_img/img-keys.ditamap" format="ditamap" processing-role="resource-only"/>
+	<!-- #### CONTENT #### -->
+	<!--<topicref href="source/what-you-can-do-with-prezi/c_what-you-can-do-with-prezi.xml"
+		navtitle="What you can do with prezi" format="dita" type="concept">
+		<topicref href="source/what-you-can-do-with-prezi/r_study-projects-and-lectures.xml"
+			navtitle="Study projects and lectures" format="dita" type="reference"/>
+		<topicref href="source/what-you-can-do-with-prezi/r_work-projects-and-communication.xml"
+			navtitle="Work projects and communication" format="dita" type="reference"/>
+		<topicref
+			href="source/what-you-can-do-with-prezi/r_presentations-and-events-planning.xml"
+			navtitle="Presentations and events planning" format="dita" type="reference"/>
+	</topicref>-->
+	<mapref href="source/what-you-can-do-with-prezi/s_what-you-can-do-with-prezi.ditamap"
+		format="ditamap"/>
+	
+	<topicref href="source/how-you-can-work-with-prezi/c_how-you-can-work-with-prezi.xml"
+		navtitle="How you can work with prezi" format="dita" type="concept">
+		<topicref href="source/how-you-can-work-with-prezi/r_prezi-versions.xml"
+			navtitle="Prezi versions" format="dita" type="reference"/>
+		<topicref href="source/how-you-can-work-with-prezi/r_prezi-apps.xml"
+			navtitle="Prezi apps" format="dita" type="reference"/>
+	</topicref>
+	<topicref href="source/creating-a-new-prezi/t_creating-a-new-prezi.xml"
+		navtitle="Creating a new prezi" format="dita" type="task">
+		<topicref href="source/creating-a-new-prezi/t_choosing-a-template.xml"
+			navtitle="Choosing a template" format="dita" type="task"/>
+		<topicref href="source/creating-a-new-prezi/t_adding-frames-and-content.xml"
+			navtitle="Adding frames and content" format="dita" type="task"/>
+		<topicref href="source/creating-a-new-prezi/t_setting-frames-path-and-transition.xml"
+			navtitle="Setting frames path and transition" format="dita" type="task"/>
+		<topicref href="source/creating-a-new-prezi/t_adding-prezi-info.xml"
+			navtitle="Adding prezi info" format="dita" type="task"/>
+		<topicref href="source/creating-a-new-prezi/t_saving-your-prezi.xml"
+			navtitle="Saving your prezi" format="dita" type="task"/>
+	</topicref>
+	<topicref href="source/presenting-with-prezi/t_presenting-with-prezi.xml"
+		navtitle="Presenting with prezi" format="dita" type="task">
+		<topicref href="source/presenting-with-prezi/t_presenting-online.xml"
+			navtitle="Presenting online" format="dita" type="task">
+			<topicref href="source/presenting-with-prezi/t_sending-invitations-to-attend.xml"
+				navtitle="Sending invitations to attend" format="dita" type="task"/>
+			<topicref href="source/presenting-with-prezi/t_setting-attendee-access.xml"
+				navtitle="Setting attendee access" format="dita" type="task"/>
+		</topicref>
+		<topicref href="source/presenting-with-prezi/t_presenting-offline.xml"
+			navtitle="Presenting offline" format="dita" type="task">
+			<topicref href="source/presenting-with-prezi/t_saving-a-prezi-as-application.xml"
+				navtitle="Saving a prezi as application" format="dita" type="task"/>
+			<topicref href="source/presenting-with-prezi/t_saving-a-prezi-as-pdf.xml"
+				navtitle="Saving a prezi as PDF" format="dita" type="task"/>
+		</topicref>
+	</topicref>
+	<topicref href="source/exporting-prezi/t_exporting-prezi.xml" navtitle="Exporting prezi"
+		format="dita" type="task">
+		<topicref href="source/exporting-prezi/t_embedding-a-prezi-on-other-sites.xml"
+			navtitle="Embedding a prezi on other sites" format="dita" type="task"/>
+		<topicref href="source/exporting-prezi/t_integrating-prezi-with-social-platforms.xml"
+			navtitle="Integrating prezi with social platforms" format="dita" type="task"/>
+	</topicref>
+	<topicref href="source/collaborating-on-prezi/t_collaborating-on-prezi.xml"
+		navtitle="Collaborating on prezi" format="dita" type="task">
+		<topicref href="source/collaborating-on-prezi/t_sharing-access-to-a-prezi.xml"
+			navtitle="Sharing access to a prezi" format="dita" type="task"/>
+		<topicref href="source/collaborating-on-prezi/t_commenting-on-prezi.xml"
+			navtitle="Commenting on prezi" format="dita" type="task"/>
+		<topicref href="source/collaborating-on-prezi/t_replying-to-comments.xml"
+			navtitle="Replying to comments" format="dita" type="task"/>
+	</topicref>
+	<topicref href="source/setting-up-canvas-and-schemes/t_setting-up-canvas-and-schemes.xml"
+		navtitle="Setting up canvas and schemes" format="dita" type="task">
+		<topicref href="source/setting-up-canvas-and-schemes/r_supported-content-types.xml"
+			navtitle="Supported content types" format="dita" type="reference"/>
+		<topicref href="source/setting-up-canvas-and-schemes/r_frame-types.xml"
+			navtitle="Frame types" format="dita" type="reference"/>
+		<topicref href="source/setting-up-canvas-and-schemes/r_color-schemes.xml"
+			navtitle="Color schemes" format="dita" type="reference"/>
+		<topicref href="source/setting-up-canvas-and-schemes/r_branding.xml" navtitle="Branding"
+			format="dita" type="reference"/>
+	</topicref>
+	<topicref href="source/setting-up-your-profile/t_setting-up-your-profile.xml"
+		navtitle="Setting up your profile" format="dita" type="task">
+		<topicref href="source/setting-up-your-profile/r_types-of-licenses.xml"
+			navtitle="Types of licenses" format="dita" type="reference"/>
+		<topicref href="source/setting-up-your-profile/r_team-settings.xml"
+			navtitle="Team settings" format="dita" type="reference"/>
+	</topicref>
+	<topicref href="source/resources/r_resources.xml" navtitle="Resources" format="dita"
+		type="reference">
+		<topicref href="source/resources/r_training.xml" navtitle="Training" format="dita"
+			type="reference"/>
+		<topicref href="source/resources/r_community.xml" navtitle="Community" format="dita"
+			type="reference"/>
+		<topicref href="source/resources/r_books.xml" navtitle="Books" format="dita"
+			type="reference"/>
+		<topicref href="source/resources/r_knowledge-base.xml" navtitle="Knowledge base"
+			format="dita" type="reference"/>
+	</topicref>
+	<topicref href="source/contacts/r_contacts.xml" navtitle="Contacts" format="dita"
+		type="reference"/>
+</map>

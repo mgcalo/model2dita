@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Prezi guide submaps</title>
+	<topicref href="t_embedding-a-prezi-on-other-sites.xml" navtitle="Embedding a prezi on other sites" format="dita" type="task"/><topicref href="t_integrating-prezi-with-social-platforms.xml" navtitle="Integrating prezi with social platforms" format="dita" type="task"/>
+</map>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="model.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <model xmlns="http://thinkdita.org/ns/model2dita">
-	<projectname>Prezi guide</projectname>
+	<projectname>Prezi guide submaps</projectname>
 	<language>en-US</language>
 	<folders>
 		<keymaps>1</keymaps>
