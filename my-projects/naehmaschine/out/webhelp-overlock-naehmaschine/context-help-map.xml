@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="r_sicherheit" path="source/r_sicherheit.html"/>
+   <appContext helpID="c_beschreibung" path="source/c_beschreibung.html"/>
+   <appContext helpID="r_funktionen" path="source/r_funktionen.html"/>
+   <appContext helpID="r_zubehör" path="source/r_zubehoer.html"/>
+   <appContext helpID="t_transportieren" path="source/t_transportieren.html"/>
+   <appContext helpID="t_in-betrieb-nehmen" path="source/t_in-betrieb-nehmen.html"/>
+   <appContext helpID="t_bedienen" path="source/t_bedienen.html"/>
+   <appContext helpID="t_nähen" path="source/t_naehen.html"/>
+   <appContext helpID="t_säumen" path="source/t_saeumen.html"/>
+   <appContext helpID="t_schneiden" path="source/t_schneiden.html"/>
+   <appContext helpID="t_geschwindigkeitsregulieren"
+               path="source/t_geschwindigkeitsregulieren.html"/>
+   <appContext helpID="t_warten" path="source/t_warten.html"/>
+   <appContext helpID="t_reinigen" path="source/t_reinigen.html"/>
+   <appContext helpID="t_lagern" path="source/t_lagern.html"/>
+   <appContext helpID="t_reparieren" path="source/t_reparieren.html"/>
+   <appContext helpID="t_fehler-beheben" path="source/t_fehler-beheben.html"/>
+   <appContext helpID="t_leichte-reparatur-durchführen"
+               path="source/t_leichte-reparatur.html"/>
+   <appContext helpID="r_garantie" path="source/r_garantie.html"/>
+   <appContext helpID="t_entsorgen" path="source/t_entsorgen.html"/>
+   <appContext helpID="r_technische-daten" path="source/r_technische-daten.html"/>
+   <appContext helpID="r_konformitätserklärung" path="source/r_konformitaet.html"/>
+</map>

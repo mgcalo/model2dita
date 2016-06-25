@@ -1,0 +1,24 @@
+//List of files which are indexed.
+fl = new Array();
+fl["0"]= "source/c_beschreibung.html";
+fl["1"]= "source/r_funktionen.html";
+fl["2"]= "source/r_garantie.html";
+fl["3"]= "source/r_konformitaet.html";
+fl["4"]= "source/r_sicherheit.html";
+fl["5"]= "source/r_technische-daten.html";
+fl["6"]= "source/r_zubehoer.html";
+fl["7"]= "source/t_bedienen.html";
+fl["8"]= "source/t_entsorgen.html";
+fl["9"]= "source/t_fehler-beheben.html";
+fl["10"]= "source/t_geschwindigkeitsregulieren.html";
+fl["11"]= "source/t_in-betrieb-nehmen.html";
+fl["12"]= "source/t_lagern.html";
+fl["13"]= "source/t_leichte-reparatur.html";
+fl["14"]= "source/t_naehen.html";
+fl["15"]= "source/t_reinigen.html";
+fl["16"]= "source/t_reparieren.html";
+fl["17"]= "source/t_saeumen.html";
+fl["18"]= "source/t_schneiden.html";
+fl["19"]= "source/t_transportieren.html";
+fl["20"]= "source/t_warten.html";
+var doStem = false;searchLoaded = true;

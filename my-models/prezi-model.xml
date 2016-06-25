@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="model.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <model xmlns="http://thinkdita.org/ns/model2dita">
-	<projectname>Prezi guide</projectname>
+	<projectname>Prezi guide test</projectname>
 	<language>en-US</language>
 	<folders>
 		<keymaps>1</keymaps>
-		<subfolders>0</subfolders>
-		<img-folders>0</img-folders>
+		<subfolders>1</subfolders>
+		<img-folders>1</img-folders>
 		<submaps>0</submaps>
 	</folders>
 	<topic>
@@ -31,6 +31,12 @@
 		<level>2</level>
 		<title>Presentations and events planning</title>
 		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>3</level>
+		<title>Test topic</title>
+		<type>concept</type>
 		<filename/>
 	</topic>
 	<topic>
