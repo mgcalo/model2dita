@@ -12,7 +12,10 @@
 					<value type="string">de-DE</value>
 				</choice>
 			</element>
-				
+			<element name="output-folder">
+				<text/>
+			</element>
+							
 			<ref name="folder-struct"/>
 			<ref name="outline"/>
 		</element>
