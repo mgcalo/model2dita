@@ -20,7 +20,7 @@ model{
 
 /* Metadata and options */
 projectname:before{
-	content: oxy_label(text, "Project name: ", width, 20%);
+	content: oxy_label(text, "Project name: ", width, 20%) oxy_button(actionID, 'generateResult');
 }
 
 projectname{
@@ -40,6 +40,17 @@ language{
 	content: 
 	oxy_combobox(edit, "#text", editable, true, values, "en-US, de-DE");
 	visibility: -oxy-collapse-text;
+}
+
+output-folder:before {
+	content: oxy_label(text, "Output folder: ", width, 20%);
+}
+
+output-folder {
+    display: block;
+    padding:0.4em;
+    content: oxy_label(text, oxy_xpath("text()"), width, 75%);
+    visibility: -oxy-collapse-text;
 }
 
 folders:before{
@@ -216,12 +227,5 @@ model:after{
 	padding-top: 1em;
 	display: block;
 	border-top: 1px solid silver;
-	content: oxy_button(action, 
-oxy_action(
-name, 'Generate', 
-description, 'Generate DITA from model', 
-operation, 'org.thinkdita.model2dita.GenerateOperation'
-))
+	content: oxy_button(actionID, 'generateResult')
 }
-
-
