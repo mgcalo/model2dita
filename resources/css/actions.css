@@ -20,7 +20,8 @@ model{
 
 /* Metadata and options */
 projectname:before{
-	content: oxy_label(text, "Project name: ", width, 20%) oxy_button(actionID, 'generateResult');
+	/*content: oxy_label(text, "Project name: ", width, 20%) oxy_button(actionID, 'generateResult');*/
+	content: oxy_label(text, "Project name: ", width, 20%);
 }
 
 projectname{
@@ -42,15 +43,16 @@ language{
 	visibility: -oxy-collapse-text;
 }
 
-output-folder:before {
+output-folder:before{
 	content: oxy_label(text, "Output folder: ", width, 20%);
 }
 
-output-folder {
-    display: block;
-    padding:0.4em;
-    content: oxy_label(text, oxy_xpath("text()"), width, 75%);
-    visibility: -oxy-collapse-text;
+output-folder{
+	display: block;
+	padding: 0.4em;
+	/*	content: oxy_label(text, oxy_xpath("text()"), width, 75%);*/
+	content: oxy_textfield(edit, '#text', width, 75%);
+	visibility: -oxy-collapse-text;
 }
 
 folders:before{
@@ -182,7 +184,7 @@ topic > filename:focus{
 
 topic > filename:empty:after{
 	color: #AAAAAA;
-	content: oxy_xpath("lower-case(replace(concat(substring(preceding-sibling::type,1,1), '_', normalize-space(preceding-sibling::title), '.xml'), ' ', '-'))");
+	content: oxy_xpath("lower-case(translate(concat(substring(preceding-sibling::type,1,1),'_',normalize-space(preceding-sibling::title), '.xml'), ' ', '-'))");
 }
 
 topic:hover > filename:after(10),

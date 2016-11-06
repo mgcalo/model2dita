@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Trello Guide</title>
+	<!-- #### KEYS SECTION #### -->
+	<mapref href="prod-keys.ditamap" format="ditamap" processing-role="resource-only"/>
+	<mapref href="source/aa_img/img-keys.ditamap" format="ditamap" processing-role="resource-only"/>
+	<!-- #### CONTENT #### -->
+	<mapref href="source/project-plans-with-trello/s_project-plans-with-trello.ditamap"/>
+	<mapref href="source/starting-a-trello-board/s_starting-a-trello-board.ditamap"/>
+	<mapref href="source/collaborating-on-the-board/s_collaborating-on-the-board.ditamap"/>
+	<mapref href="source/monitoring-trello-boards/s_monitoring-trello-boards.ditamap"/>
+	<mapref href="source/adding-content-to-cards/s_adding-content-to-cards.ditamap"/>
+	<mapref href="source/exporting-content-from-trello/s_exporting-content-from-trello.ditamap"/>
+	<mapref href="source/changing-items/s_changing-items.ditamap"/>
+	<mapref href="source/examples-of-boards/s_examples-of-boards.ditamap"/>
+	<mapref href="source/shortcuts-and-tips/s_shortcuts-and-tips.ditamap"/>
+</map>

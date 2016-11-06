@@ -9,7 +9,7 @@ declare variable $project-title := $input-document/model2dita:projectname/text()
 declare variable $map-template :=
 	<map xml:lang="en-US">
 		<title />
-	</map
+	</map>
 ;
 declare variable $mapref-template := <mapref href="" />;
 
@@ -19,7 +19,7 @@ declare variable $master-ditamap-path := concat($output-folder-path, '/test22.xm
 declare variable $submaps-criterion := $input-document//model2dita:submaps/text();
 
 declare function local:generate-name($input) {
-	lower-case(translate($input, " ", "-"))
+	lower-case(translate($input, ' ', '-'))
 };
 
 declare function local:generate-topicref-tree($node) {

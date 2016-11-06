@@ -3,6 +3,7 @@
 <model xmlns="http://thinkdita.org/ns/model2dita">
 	<projectname>Prezi guide submaps</projectname>
 	<language>en-US</language>
+	<output-folder>C:\Users\mac\Documents\gitprojects\model2dita\my-projects\test20161023</output-folder>
 	<folders>
 		<keymaps>1</keymaps>
 		<subfolders>1</subfolders>

@@ -3,6 +3,7 @@
 <model xmlns="http://thinkdita.org/ns/model2dita">
 	<projectname>Trello Guide</projectname>
 	<language>en-US</language>
+	<output-folder/>
 	<folders>
 		<keymaps>0</keymaps>
 		<subfolders>1</subfolders>

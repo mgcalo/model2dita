@@ -5,77 +5,88 @@ oxy|comment{
 }
 
 *{
-    -oxy-display-tags: none;
+	-oxy-display-tags: none;
 }
 
 :root{
-    margin: 1em;
+	margin: 1em;
 }
 
 projectname:before{
-    content: oxy_label(text, "Project name: ", width, 20%);
+	content: oxy_label(text, "Project name: ", width, 20%);
 }
 
 projectname{
-    display: block;
-    padding:0.4em;
-    content: oxy_textfield(edit, '#text', width, 75%);
-    visibility: -oxy-collapse-text;
+	display: block;
+	padding: 0.4em;
+	content: oxy_textfield(edit, '#text', width, 75%);
+	visibility: -oxy-collapse-text;
 }
 
 language:before{
-    content: oxy_label(text, "Language:", width, 20%);
+	content: oxy_label(text, "Language:", width, 20%);
 }
 
 language{
-    display: block;
-    padding:0.4em;
-    content: 
-        oxy_combobox(edit, "#text", editable, true, values, "en-US, de-DE");
-    visibility: -oxy-collapse-text;
+	display: block;
+	padding: 0.4em;
+	content: 
+	oxy_combobox(edit, "#text", editable, true, values, "en-US, de-DE");
+	visibility: -oxy-collapse-text;
 }
 
-folders:before {
-    display:block;
-    content :"Folder options";
+output-folder:before{
+	content: oxy_label(text, "Output folder: ", width, 20%);
+}
+
+output-folder{
+	display: block;
+	padding: 0.4em;
+	content: oxy_textfield(edit, '#text', width, 75%);
+	visibility: -oxy-collapse-text;
+}
+
+folders:before{
+	display: block;
+	content: "Folder options";
 }
 
 folders{
-    display: block;
-    border: 1px solid silver;
-    padding: 0.4em;
-    margin-top:1em;
-    margin-bottom:1em;
-    width:93%;
+	display: block;
+	border: 1px solid silver;
+	padding: 0.4em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 93%;
 }
 
 folders > keymaps{
-    display: block;
-    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create keymaps');
-    visibility: -oxy-collapse-text;
+	display: block;
+	content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create keymaps');
+	visibility: -oxy-collapse-text;
 
 }
 
 folders > subfolders{
-    display: block;
-    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create subfolders:');
-    visibility: -oxy-collapse-text;
+	display: block;
+	content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create subfolders:');
+	visibility: -oxy-collapse-text;
 }
 
 folders > img-folders{
-    display: block;
-    background-color: #FAFAFA;
-    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create image subfolders');
-    visibility: -oxy-collapse-text;
-    padding-left:1em;
+	display: block;
+	background-color: #FAFAFA;
+	content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create image subfolders');
+	visibility: -oxy-collapse-text;
+	padding-left: 1em;
 }
 
 folders > submaps{
-    display: block;
-    background-color: #FAFAFA;
-    content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create submaps');
-    visibility: -oxy-collapse-text;
-    padding-left:1em;
+	display: block;
+	background-color: #FAFAFA;
+	content: oxy_checkbox(edit, '#text', values, '1', uncheckedValues, '0', labels, 'Create submaps');
+	visibility: -oxy-collapse-text;
+	padding-left: 1em;
 }
 
 topic{
