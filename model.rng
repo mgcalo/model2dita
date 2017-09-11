@@ -70,6 +70,7 @@
 						<value type="string">task</value>
 						<value type="string">reference</value>
 						<value type="string">concept</value>
+						<value type="string">troubleshooting</value>
 						<value type="string">glossentry</value>
 						<value type="string">glossgroup</value>
 						<value type="string">topic</value>

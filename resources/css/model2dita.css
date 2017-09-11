@@ -112,7 +112,7 @@ topic > title{
 topic > type{
 	display: inline;
 	padding-left: 0.2em;
-	content: oxy_combobox(edit, '#text', editable, false, values, 'task, reference, concept, glossentry, glossgroup, topic');
+	content: oxy_combobox(edit, '#text', editable, false, values, 'task, reference, concept, troubleshooting, glossentry, glossgroup, topic');
 	visibility: -oxy-collapse-text;
 
 }
