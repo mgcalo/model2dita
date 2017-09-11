@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="model.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../resources/css/model2dita.css"?>
+<?xml-stylesheet type="text/css" href="../resources/css/actions.css"?>
+<model xmlns="http://thinkdita.org/ns/model2dita">
+	<projectname>CleverTank</projectname>
+	<language>de-DE</language>
+	<output-folder>C:\Users\mac\Documents\gitprojects\model2dita\my-projects</output-folder>
+	<folders>
+		<keymaps>1</keymaps>
+		<subfolders>1</subfolders>
+		<img-folders>1</img-folders>
+		<submaps>1</submaps>
+	</folders>
+	<topic>
+		<level>1</level>
+		<title>Sicherheitshinweise</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Geraetebeschreibung </title>
+		<type>concept</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Baugruppen</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Lieferumfang</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Zeichnung</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Installationsanleitung </title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Sicherheitshinweise </title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Checkliste Installationsvoraussetzung Grauwasseranlage </title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Aufstellraum</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Montage</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Erstinbetriebnahme </title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Bedienungsanleitungen </title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Normaler Betrieb </title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Urlaubsmodus </title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Sommer- und Winterbetrieb </title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Datum und Zeit umstellen </title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Bedienelemente </title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>3</level>
+		<title>Schaltschrank</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>3</level>
+		<title>Steuerung</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Inspektion und Wartung </title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Checklisten</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Formulare</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Fehlerbehebung </title>
+		<type>troubleshooting</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Fehler Beluefter T1 </title>
+		<type>troubleshooting</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Fehler Beluefter T2 </title>
+		<type>glossentry</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Trinkwasser nicht offen </title>
+		<type>troubleshooting</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Stoerung ext. DEA </title>
+		<type>troubleshooting</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Sammelstoerung </title>
+		<type>troubleshooting</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Fehler Foerderpumpe T1 </title>
+		<type>troubleshooting</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Fehler Membran T2 </title>
+		<type>troubleshooting</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Fehler Filtration T2 </title>
+		<type>troubleshooting</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Fehler Schwimmer 1SX </title>
+		<type>troubleshooting</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Fehler Schwimmer 9SX </title>
+		<type>troubleshooting</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Speicherfehler </title>
+		<type>troubleshooting</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Außerbetriebnahme </title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Sicherheitshinweise </title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Entsorgung </title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Technische Daten </title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Garantie</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Kontakt</title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>CE-Konformitaetserklaerung </title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Anhang </title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Anzeige Betriebswasseranlage </title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Anzeige Wasserversorgungsunternehmen </title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Dokumentation Membraneinheit (1) </title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Dokumentation Membraneinheit (2) </title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Dokumentation Wartung Beluefter </title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Dokumentation Permeatpumpe </title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Dokumentation Trinkwassernachspeisung </title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Foerderpumpe </title>
+		<type>reference</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Glossar </title>
+		<type>glossgroup</type>
+		<filename/>
+	</topic>
+	
+</model>
