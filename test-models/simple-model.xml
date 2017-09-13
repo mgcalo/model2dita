@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../model.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <model xmlns="http://thinkdita.org/ns/model2dita">
-	<projectname>Trello Guide</projectname>
+	<projectname>Simple Model</projectname>
 	<language>en-US</language>
 	<output-folder/>
 	<folders>
@@ -66,7 +66,7 @@
 	</topic>
 	<topic>
 		<level>1</level>
-		<title>Item 3 on the board</title>
+		<title>Item 3</title>
 		<type>task</type>
 		<filename/>
 	</topic>
