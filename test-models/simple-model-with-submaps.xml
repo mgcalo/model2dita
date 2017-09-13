@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../model.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<model xmlns="http://thinkdita.org/ns/model2dita">
+	<projectname>Simple Model with Submaps</projectname>
+	<language>en-US</language>
+	<output-folder>C:\Users\mac\Documents\gitprojects\model2dita\my-projects\simple-model-submaps</output-folder>
+	<folders>
+		<keymaps>0</keymaps>
+		<subfolders>1</subfolders>
+		<img-folders>0</img-folders>
+		<submaps>1</submaps>
+	</folders>
+	<topic>
+		<level>1</level>
+		<title>Item 1</title>
+		<type>concept</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Item 1.1</title>
+		<type>concept</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Item 1.2</title>
+		<type>concept</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Item 1.3</title>
+		<type>concept</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>3</level>
+		<title>Item 1.3.1</title>
+		<type>troubleshooting</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>3</level>
+		<title>Item 1.3.2</title>
+		<type>troubleshooting</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Single item 2</title>
+		<type>concept</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Item 3</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Item 3.1</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Item 3.2</title>
+		<type>glossentry</type>
+		<filename/>
+	</topic>
+	<topic>
+		<level>1</level>
+		<title>Single Item 4</title>
+		<type>task</type>
+		<filename/>
+	</topic>
+</model>
