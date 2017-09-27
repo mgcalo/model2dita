@@ -3,7 +3,7 @@
 <model xmlns="http://thinkdita.org/ns/model2dita">
 	<projectname>Simple Model with Submaps</projectname>
 	<language>en-US</language>
-	<output-folder>C:\Users\mac\Documents\gitprojects\model2dita\my-projects\simple-model-submaps</output-folder>
+	<output-folder>C:\Users\mac\Documents\gitprojects\model2dita\my-projects\test-simple-submaps</output-folder>
 	<folders>
 		<keymaps>0</keymaps>
 		<subfolders>1</subfolders>
