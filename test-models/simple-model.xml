@@ -3,12 +3,12 @@
 <model xmlns="http://thinkdita.org/ns/model2dita">
 	<projectname>Simple Model</projectname>
 	<language>en-US</language>
-	<output-folder/>
+	<output-folder>/home/claudius/oxygen/author/frameworks/model2dita/target</output-folder>
 	<folders>
 		<keymaps>0</keymaps>
 		<subfolders>0</subfolders>
 		<img-folders>0</img-folders>
-		<submaps>0</submaps>
+		<submaps>1</submaps>
 	</folders>
 	<topic>
 		<level>1</level>
