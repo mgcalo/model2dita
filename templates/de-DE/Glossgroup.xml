@@ -2,7 +2,7 @@
 <!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
 <glossgroup xml:lang="de-DE" id="gg_${id}">
 	<title>${title}</title>
-	<glossentry id="ddl">
+	<glossentry id="g_${id}">
 		<glossterm/>
 		<glossdef/>
 	</glossentry>

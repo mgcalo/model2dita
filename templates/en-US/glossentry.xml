@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
 <glossentry xml:lang="en-US" id="g_${id}">
-<<<<<<< HEAD:templates/en-US/Glossentry.xml
 	<glossterm>${title}</glossterm>
 	<glossdef/>
-=======
-    <glossterm>${title}</glossterm>
-    <glossdef></glossdef>
->>>>>>> 5289eabdcaab4ac73ba71d8c897b38b3fe51c953:templates/en-US/glossentry.xml
 </glossentry>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dita PUBLIC "-//FIRELAB//DTD DITA Composite Plus MathML//EN" "ditabase.dtd">
 <dita xml:lang="en-US">
-	<topic id="topic_${id}">
+	<topic id="ml_${id}">
 		<title>${title}</title>
 		<body>
 			<p>An equation: <equation>
