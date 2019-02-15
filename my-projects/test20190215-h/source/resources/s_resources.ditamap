@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Prezi guide submaps</title>
+	<topicref href="r_resources.xml" navtitle="Resources" format="dita" type="reference"><topicref href="r_training.xml" navtitle="Training" format="dita" type="reference"/><topicref href="r_community.xml" navtitle="Community" format="dita" type="reference"/><topicref href="r_books.xml" navtitle="Books" format="dita" type="reference"/><topicref href="r_knowledge-base.xml" navtitle="Knowledge base" format="dita" type="reference"/></topicref>
+</map>

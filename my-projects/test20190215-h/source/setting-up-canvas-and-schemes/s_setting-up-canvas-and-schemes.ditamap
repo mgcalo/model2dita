@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Prezi guide submaps</title>
+	<topicref href="t_setting-up-canvas-and-schemes.xml" navtitle="Setting up canvas and schemes" format="dita" type="task"><topicref href="r_supported-content-types.xml" navtitle="Supported content types" format="dita" type="reference"/><topicref href="r_frame-types.xml" navtitle="Frame types" format="dita" type="reference"/><topicref href="r_color-schemes.xml" navtitle="Color schemes" format="dita" type="reference"/><topicref href="r_branding.xml" navtitle="Branding" format="dita" type="reference"/></topicref>
+</map>

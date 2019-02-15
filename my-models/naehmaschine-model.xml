@@ -3,6 +3,7 @@
 <model xmlns="http://thinkdita.org/ns/model2dita">
 	<projectname>Overlock-Naehmaschine</projectname>
 	<language>de-DE</language>
+	<output-folder>C:\Users\macoi\Documents\Git\tD\m2d\my-projects\test20190215-DE</output-folder>
 	<folders>
 		<keymaps>1</keymaps>
 		<subfolders>0</subfolders>
@@ -134,5 +135,11 @@
 		<title>Konformitätserklärung</title>
 		<type>reference</type>
 		<filename>r_konformitaet.xml</filename>
+	</topic>
+	<topic>
+		<level>2</level>
+		<title>Test für äßö</title>
+		<type>reference</type>
+		<filename/>
 	</topic>
 </model>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+ <title>Prezi guide submaps</title>
+ <!-- #### KEYS SECTION #### -->
+ <mapref href="prod-keys.ditamap" format="ditamap" processing-role="resource-only"/>
+ <mapref href="img-keys.ditamap" format="ditamap" processing-role="resource-only"/>
+ <!-- #### CONTENT #### -->
+ <mapref href="source/what-you-can-do-with-prezi/s_what-you-can-do-with-prezi.ditamap"/>
+ <mapref href="source/how-you-can-work-with-prezi/s_how-you-can-work-with-prezi.ditamap"/>
+ <mapref href="source/creating-a-new-prezi/s_creating-a-new-prezi.ditamap"/>
+ <mapref href="source/presenting-with-prezi/s_presenting-with-prezi.ditamap"/>
+ <mapref href="source/exporting-prezi/s_exporting-prezi.ditamap"/>
+ <mapref href="source/collaborating-on-prezi/s_collaborating-on-prezi.ditamap"/>
+ <mapref href="source/setting-up-canvas-and-schemes/s_setting-up-canvas-and-schemes.ditamap"/>
+ <mapref href="source/setting-up-your-profile/s_setting-up-your-profile.ditamap"/>
+ <mapref href="source/resources/s_resources.ditamap"/>
+ <mapref href="source/contacts/s_contacts.ditamap"/>
+</map>

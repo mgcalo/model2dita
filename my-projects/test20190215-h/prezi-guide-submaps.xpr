@@ -10,11 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>prezi-guide.ditamap</String>
+                                    <String>prezi-guide-submaps.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DITA Map PDF - Prezi guide</String>
+                                        <String>DITA Map PDF - Prezi guide submaps</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -29,8 +29,8 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DITA Map PDF - ${projectName}</String>
-                                        <String>DITA Map WebHelp - ${projectName}</String>
+                                        <String>DITA Map WebHelp - Prezi guide submaps</String>
+                                        <String>DITA Map PDF - Prezi guide submaps</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -92,6 +92,12 @@
                                 <field name="lastCustomSkinCssPath">
                                     <null/>
                                 </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
+                                <field name="publishingTemplateDataPO">
+                                    <null/>
+                                </field>
                                 <field name="additionalAntArgs">
                                     <String></String>
                                 </field>
@@ -114,7 +120,7 @@
                                                 <String>nofamily</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <String>none</String>
+                                                <null/>
                                             </field>
                                             <field name="type">
                                                 <Integer>4</Integer>
@@ -123,8 +129,17 @@
                                                 <String-array>
                                                     <String>none</String>
                                                     <String>all</String>
+                                                    <String>noparent</String>
                                                     <String>nofamily</String>
                                                     <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String>No links are included.</String>
+                                                    <String>All links are included.</String>
+                                                    <String>Parent links are not included.</String>
+                                                    <String>Parent, child, next, and previous links are not included.</String>
                                                 </String-array>
                                             </field>
                                         </ditaParameter>
@@ -151,6 +166,12 @@
                                                     <null/>
                                                 </String-array>
                                             </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
@@ -173,6 +194,9 @@
                                                     <String>.xml</String>
                                                     <String>.dita</String>
                                                 </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
                                             </field>
                                         </ditaParameter>
                                     </list>
@@ -202,7 +226,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>DITA Map PDF - ${projectName}</String>
+                                    <String>DITA Map PDF - Prezi guide submaps</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
@@ -370,6 +394,9 @@
                                                     <String>no</String>
                                                 </String-array>
                                             </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
@@ -395,6 +422,9 @@
                                                     <String>nofamily</String>
                                                 </String-array>
                                             </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
@@ -418,6 +448,9 @@
                                                     <String>yes</String>
                                                     <String>no</String>
                                                 </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -443,6 +476,9 @@
                                                     <String>no</String>
                                                 </String-array>
                                             </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
@@ -467,6 +503,9 @@
                                                     <String>.dita</String>
                                                 </String-array>
                                             </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
@@ -485,6 +524,9 @@
                                                 <Integer>0</Integer>
                                             </field>
                                             <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
                                                 <null/>
                                             </field>
                                         </ditaParameter>
@@ -515,7 +557,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>DITA Map WebHelp - ${projectName}</String>
+                                    <String>DITA Map WebHelp - Prezi guide submaps</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
@@ -602,7 +644,7 @@
             </serialized>
         </options>
     </meta>
-    <projectTree name="${projectFileName}.xpr">
+    <projectTree name="prezi-guide-submaps.xpr">
         <folder path="."/>
     </projectTree>
 </project>

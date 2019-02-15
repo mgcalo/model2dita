@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Prezi guide submaps</title>
+	<topicref href="c_how-you-can-work-with-prezi.xml" navtitle="How you can work with prezi" format="dita" type="concept"><topicref href="r_prezi-versions.xml" navtitle="Prezi versions" format="dita" type="reference"/><topicref href="r_prezi-apps.xml" navtitle="Prezi apps" format="dita" type="reference"/></topicref>
+</map>

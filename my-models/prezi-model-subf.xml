@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="model.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <model xmlns="http://thinkdita.org/ns/model2dita">
-	<projectname>Prezi guide submaps</projectname>
+	<projectname>Prezi guide</projectname>
 	<language>en-US</language>
-	<output-folder>C:\Users\mac\Documents\gitprojects\model2dita\my-projects\test20161023</output-folder>
+	<output-folder>C:\Users\macoi\Documents\Git\tD\m2d\my-projects\test20190215-c</output-folder>
 	<folders>
-		<keymaps>1</keymaps>
+		<keymaps>0</keymaps>
 		<subfolders>1</subfolders>
-		<img-folders>0</img-folders>
-		<submaps>1</submaps>
+		<img-folders>1</img-folders>
+		<submaps>0</submaps>
 	</folders>
 	<topic>
 		<level>1</level>
